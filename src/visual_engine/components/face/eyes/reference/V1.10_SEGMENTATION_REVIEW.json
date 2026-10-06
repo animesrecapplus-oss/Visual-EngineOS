@@ -1,0 +1,262 @@
+{
+  "candidate_count": 28,
+  "candidates": [
+    {
+      "area": 7480,
+      "height": 96,
+      "review_status": "pending_human_review",
+      "sample_id": null,
+      "width": 125,
+      "x": 481,
+      "y": 12
+    },
+    {
+      "area": 7619,
+      "height": 95,
+      "review_status": "pending_human_review",
+      "sample_id": null,
+      "width": 123,
+      "x": 264,
+      "y": 13
+    },
+    {
+      "area": 7426,
+      "height": 97,
+      "review_status": "pending_human_review",
+      "sample_id": null,
+      "width": 115,
+      "x": 18,
+      "y": 19
+    },
+    {
+      "area": 7182,
+      "height": 93,
+      "review_status": "pending_human_review",
+      "sample_id": null,
+      "width": 114,
+      "x": 130,
+      "y": 21
+    },
+    {
+      "area": 3675,
+      "height": 86,
+      "review_status": "pending_human_review",
+      "sample_id": null,
+      "width": 75,
+      "x": 683,
+      "y": 25
+    },
+    {
+      "area": 5213,
+      "height": 93,
+      "review_status": "pending_human_review",
+      "sample_id": null,
+      "width": 90,
+      "x": 379,
+      "y": 27
+    },
+    {
+      "area": 4047,
+      "height": 95,
+      "review_status": "pending_human_review",
+      "sample_id": null,
+      "width": 68,
+      "x": 597,
+      "y": 29
+    },
+    {
+      "area": 45648,
+      "height": 147,
+      "review_status": "pending_human_review",
+      "sample_id": null,
+      "width": 512,
+      "x": 254,
+      "y": 107
+    },
+    {
+      "area": 23108,
+      "height": 128,
+      "review_status": "pending_human_review",
+      "sample_id": null,
+      "width": 250,
+      "x": 13,
+      "y": 117
+    },
+    {
+      "area": 8602,
+      "height": 116,
+      "review_status": "pending_human_review",
+      "sample_id": null,
+      "width": 124,
+      "x": 131,
+      "y": 266
+    },
+    {
+      "area": 8310,
+      "height": 111,
+      "review_status": "pending_human_review",
+      "sample_id": null,
+      "width": 123,
+      "x": 18,
+      "y": 268
+    },
+    {
+      "area": 8607,
+      "height": 106,
+      "review_status": "pending_human_review",
+      "sample_id": null,
+      "width": 132,
+      "x": 478,
+      "y": 272
+    },
+    {
+      "area": 8670,
+      "height": 106,
+      "review_status": "pending_human_review",
+      "sample_id": null,
+      "width": 136,
+      "x": 256,
+      "y": 274
+    },
+    {
+      "area": 5253,
+      "height": 105,
+      "review_status": "pending_human_review",
+      "sample_id": null,
+      "width": 104,
+      "x": 665,
+      "y": 274
+    },
+    {
+      "area": 5554,
+      "height": 101,
+      "review_status": "pending_human_review",
+      "sample_id": null,
+      "width": 93,
+      "x": 383,
+      "y": 278
+    },
+    {
+      "area": 3781,
+      "height": 97,
+      "review_status": "pending_human_review",
+      "sample_id": null,
+      "width": 63,
+      "x": 608,
+      "y": 278
+    },
+    {
+      "area": 47582,
+      "height": 141,
+      "review_status": "pending_human_review",
+      "sample_id": null,
+      "width": 488,
+      "x": 10,
+      "y": 384
+    },
+    {
+      "area": 21720,
+      "height": 216,
+      "review_status": "pending_human_review",
+      "sample_id": null,
+      "width": 212,
+      "x": 482,
+      "y": 384
+    },
+    {
+      "area": 9782,
+      "height": 133,
+      "review_status": "pending_human_review",
+      "sample_id": null,
+      "width": 113,
+      "x": 663,
+      "y": 391
+    },
+    {
+      "area": 3429,
+      "height": 91,
+      "review_status": "pending_human_review",
+      "sample_id": null,
+      "width": 77,
+      "x": 693,
+      "y": 529
+    },
+    {
+      "area": 4086,
+      "height": 91,
+      "review_status": "pending_human_review",
+      "sample_id": null,
+      "width": 87,
+      "x": 411,
+      "y": 531
+    },
+    {
+      "area": 5283,
+      "height": 78,
+      "review_status": "pending_human_review",
+      "sample_id": null,
+      "width": 115,
+      "x": 17,
+      "y": 536
+    },
+    {
+      "area": 5587,
+      "height": 79,
+      "review_status": "pending_human_review",
+      "sample_id": null,
+      "width": 120,
+      "x": 139,
+      "y": 536
+    },
+    {
+      "area": 5728,
+      "height": 76,
+      "review_status": "pending_human_review",
+      "sample_id": null,
+      "width": 127,
+      "x": 502,
+      "y": 541
+    },
+    {
+      "area": 6094,
+      "height": 78,
+      "review_status": "pending_human_review",
+      "sample_id": null,
+      "width": 132,
+      "x": 281,
+      "y": 559
+    },
+    {
+      "area": 25058,
+      "height": 200,
+      "review_status": "pending_human_review",
+      "sample_id": null,
+      "width": 282,
+      "x": 510,
+      "y": 592
+    },
+    {
+      "area": 17523,
+      "height": 138,
+      "review_status": "pending_human_review",
+      "sample_id": null,
+      "width": 234,
+      "x": 275,
+      "y": 618
+    },
+    {
+      "area": 20172,
+      "height": 118,
+      "review_status": "pending_human_review",
+      "sample_id": null,
+      "width": 266,
+      "x": 16,
+      "y": 625
+    }
+  ],
+  "nonclaim": "No candidate is a digitized sample; no family, contour, canthus, caruncle or epicanthus truth is assigned automatically.",
+  "schema_version": "V1.10-segmentation-review-1",
+  "source_id": "user_supplied_sheet_2026-09-18",
+  "source_sha256": "7bff12532250d95020b022436253dc2664acb3c58745ae715da58ae1d48adec2",
+  "status": "segmentation_candidates_require_visual_review"
+}

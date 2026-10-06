@@ -1,0 +1,25 @@
+{
+  "schema_version": "V1.9-source-candidates-1",
+  "records": [
+    {
+      "source_id": "reference_01_anime",
+      "expected_name": "53267426-anime-yeux-dessin-anime-pour-element-faciale-expression-visage-et-emotion-vectoriel.jpg",
+      "expected_sha256": "dff4d4ae82dcb8a634d0ac0169d759be1f199787d4037fa538453eb5fa304bee",
+      "expected_width_px": 1176,
+      "expected_height_px": 980,
+      "candidate_url": "https://static.vecteezy.com/system/resources/previews/053/267/426/non_2x/anime-eyes-cartoon-for-element-facial-expression-face-and-emotion-vector.jpg",
+      "status": "candidate_not_verified",
+      "notes": "The public candidate was located by asset id 53267426, but its downloadable preview must still match the recorded 1176x980 source and SHA-256 before it can be admitted. No pixel data is bundled here."
+    },
+    {
+      "source_id": "reference_02_reflective",
+      "expected_name": "il_fullxfull.6486847481_s7a4.webp",
+      "expected_sha256": null,
+      "expected_width_px": null,
+      "expected_height_px": null,
+      "candidate_url": null,
+      "status": "source_unresolved",
+      "notes": "The exact asset id/name was not recoverable from the available checkpoint/library or web search. It must be supplied or otherwise identified before pixel digitization is claimed."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "records": [
+    {
+      "calibration_admission": "blocked_until_sample_region_and_source_provenance_are_human_validated",
+      "crop_status": "unknown",
+      "format": "JPEG",
+      "height_px": 792,
+      "immutable_policy": "digest_guarded_no_overwrite",
+      "name": "reference_sheet_2026-09-18.jpg",
+      "notes": "Exact bytes supplied in this conversation are preserved. The file itself cannot prove whether an upstream crop/rescale occurred before upload.",
+      "orientation": "normal",
+      "pixel_role": "reference_review_sheet",
+      "provenance_status": "byte_preserved_user_upload",
+      "sha256": "7bff12532250d95020b022436253dc2664acb3c58745ae715da58ae1d48adec2",
+      "source_id": "user_supplied_sheet_2026-09-18",
+      "width_px": 792
+    },
+    {
+      "expected_height_px": 980,
+      "expected_sha256": "dff4d4ae82dcb8a634d0ac0169d759be1f199787d4037fa538453eb5fa304bee",
+      "expected_width_px": 1176,
+      "name": "53267426-anime-yeux-dessin-anime-pour-element-faciale-expression-visage-et-emotion-vectoriel.jpg",
+      "source_id": "reference_01_anime_historical",
+      "status": "candidate_not_verified"
+    },
+    {
+      "name": "il_fullxfull.6486847481_s7a4.webp",
+      "source_id": "reference_02_reflective_historical",
+      "status": "source_unresolved"
+    }
+  ],
+  "schema_version": "V1.10-source-provenance-1"
+}

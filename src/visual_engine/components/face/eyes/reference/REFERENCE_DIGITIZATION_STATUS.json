@@ -1,0 +1,37 @@
+{
+  "schema_version": "V1.8-reference-1",
+  "status": "envelope_only",
+  "source": {
+    "name": "53267426-anime-yeux-dessin-anime-pour-element-faciale-expression-visage-et-emotion-vectoriel.jpg",
+    "width_px": 1176,
+    "height_px": 980,
+    "sha256": "dff4d4ae82dcb8a634d0ac0169d759be1f199787d4037fa538453eb5fa304bee",
+    "pixel_available": false,
+    "notes": "The prior V1.4 evidence records the source hash and measurements, but the source pixel file is not present in the V1.8 checkpoint/library. No curve, tangent, caruncle or epicanthus coordinates are inferred from the envelope table."
+  },
+  "provenance": "Envelope measurements are transcribed from the prior V1.4 reference analysis. They are not a substitute for pixel-level digitization.",
+  "measured_envelopes": [
+    {"sample_id":"R1C1","family":"unclassified","envelope_width_px":183,"envelope_height_px":68,"notes":"Measured in V1.4 preanalysis."},
+    {"sample_id":"R1C2","family":"unclassified","envelope_width_px":178,"envelope_height_px":68,"notes":"Measured in V1.4 preanalysis."},
+    {"sample_id":"R1C3","family":"unclassified","envelope_width_px":176,"envelope_height_px":79,"notes":"Measured in V1.4 preanalysis."},
+    {"sample_id":"R1C4","family":"unclassified","envelope_width_px":189,"envelope_height_px":80,"notes":"Measured in V1.4 preanalysis."},
+    {"sample_id":"R2C1","family":"unclassified","envelope_width_px":158,"envelope_height_px":108,"notes":"Measured in V1.4 preanalysis."},
+    {"sample_id":"R2C2","family":"unclassified","envelope_width_px":156,"envelope_height_px":109,"notes":"Measured in V1.4 preanalysis."},
+    {"sample_id":"R2C3","family":"unclassified","envelope_width_px":192,"envelope_height_px":114,"notes":"Measured in V1.4 preanalysis."},
+    {"sample_id":"R2C4","family":"unclassified","envelope_width_px":189,"envelope_height_px":114,"notes":"Measured in V1.4 preanalysis."},
+    {"sample_id":"R3C1","family":"unclassified","envelope_width_px":190,"envelope_height_px":87,"notes":"Measured in V1.4 preanalysis."},
+    {"sample_id":"R3C2","family":"unclassified","envelope_width_px":192,"envelope_height_px":87,"notes":"Measured in V1.4 preanalysis."},
+    {"sample_id":"R3C3","family":"unclassified","envelope_width_px":185,"envelope_height_px":74,"notes":"Measured in V1.4 preanalysis."},
+    {"sample_id":"R3C4","family":"unclassified","envelope_width_px":184,"envelope_height_px":74,"notes":"Measured in V1.4 preanalysis."}
+  ],
+  "blocked_axes": [
+    "upper contour points",
+    "lower contour points",
+    "medial terminal",
+    "lateral terminal",
+    "four endpoint tangents",
+    "caruncle polygon and curvature",
+    "epicanthic fold curve"
+  ],
+  "required_next_source_action": "Supply the original pixel sheet so the digitizer can populate the blocked axes without inventing coordinates."
+}
