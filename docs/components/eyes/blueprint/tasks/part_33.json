@@ -1,0 +1,135 @@
+[
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for STY.cel and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR",
+      "COL"
+    ],
+    "develop": "Implement STY.cel as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "cel shading",
+    "id": "STY.cel",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "STY",
+    "test": "Test STY.cel with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Style et langage graphique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for STY.game3d and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR",
+      "COL"
+    ],
+    "develop": "Implement STY.game3d as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "3D game",
+    "id": "STY.game3d",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "STY",
+    "test": "Test STY.game3d with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Style et langage graphique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for STY.realistic and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR",
+      "COL"
+    ],
+    "develop": "Implement STY.realistic as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "réaliste",
+    "id": "STY.realistic",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "STY",
+    "test": "Test STY.realistic with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Style et langage graphique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for STY.cartoon and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR",
+      "COL"
+    ],
+    "develop": "Implement STY.cartoon as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "cartoon",
+    "id": "STY.cartoon",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "STY",
+    "test": "Test STY.cartoon with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Style et langage graphique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for STY.custom and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR",
+      "COL"
+    ],
+    "develop": "Implement STY.custom as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "custom",
+    "id": "STY.custom",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "STY",
+    "test": "Test STY.custom with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Style et langage graphique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for STY.geometry_priors and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR",
+      "COL"
+    ],
+    "develop": "Implement STY.geometry_priors as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "priors géométriques contrôlés",
+    "id": "STY.geometry_priors",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "STY",
+    "test": "Test STY.geometry_priors with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Style et langage graphique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for STY.appearance_transform and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR",
+      "COL"
+    ],
+    "develop": "Implement STY.appearance_transform as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "transformation apparence",
+    "id": "STY.appearance_transform",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "STY",
+    "test": "Test STY.appearance_transform with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Style et langage graphique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  }
+]

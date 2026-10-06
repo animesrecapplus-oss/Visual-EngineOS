@@ -1,0 +1,23 @@
+{
+  "component_id": "CMP-RENDER-GEOMETRY-SVG-EAR-ROLE",
+  "ids": [
+    "CMP",
+    "FILE",
+    "CON",
+    "INV",
+    "TST",
+    "ADV",
+    "REL",
+    "DEC",
+    "ERR",
+    "IMP",
+    "EVD"
+  ],
+  "source_line_ranges": {
+    "src/visual_engine/components/face/ear.py": "37-45",
+    "src/visual_engine/render/geometry_svg.py": "106-125,179-211",
+    "tests/unit/test_v156_production_ear.py": "1-144"
+  },
+  "status": "CERTIFIED",
+  "version": "V1.56"
+}

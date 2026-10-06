@@ -1,0 +1,128 @@
+[
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for LAS.density and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "MOR"
+    ],
+    "develop": "Implement LAS.density as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "densité",
+    "id": "LAS.density",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "LAS",
+    "test": "Test LAS.density with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Cils",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for LAS.groups and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "MOR"
+    ],
+    "develop": "Implement LAS.groups as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "groupes",
+    "id": "LAS.groups",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "LAS",
+    "test": "Test LAS.groups with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Cils",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for LAS.length and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "MOR"
+    ],
+    "develop": "Implement LAS.length as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "longueur",
+    "id": "LAS.length",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "LAS",
+    "test": "Test LAS.length with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Cils",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for LAS.curvature and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "MOR"
+    ],
+    "develop": "Implement LAS.curvature as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "courbure",
+    "id": "LAS.curvature",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "LAS",
+    "test": "Test LAS.curvature with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Cils",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for LAS.direction and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "MOR"
+    ],
+    "develop": "Implement LAS.direction as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "direction locale",
+    "id": "LAS.direction",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "LAS",
+    "test": "Test LAS.direction with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Cils",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for LAS.root and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "MOR"
+    ],
+    "develop": "Implement LAS.root as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "racine",
+    "id": "LAS.root",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "LAS",
+    "test": "Test LAS.root with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Cils",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for LAS.taper and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "MOR"
+    ],
+    "develop": "Implement LAS.taper as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "effilement",
+    "id": "LAS.taper",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "LAS",
+    "test": "Test LAS.taper with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Cils",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  }
+]

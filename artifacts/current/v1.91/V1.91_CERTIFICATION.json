@@ -1,0 +1,61 @@
+{
+  "adversarial": "PASS for bounded identity/negative-space cases",
+  "baseline": "V1.89 certified checkpoint",
+  "benchmark": "PASS_MEASURED_ONLY: input-boundary median +6.10% in diagnostic workload; no optimization introduced",
+  "cache_identity": "PASS: side present in existing eye geometry cache projection",
+  "claim_boundary": "No complete-current-suite PASS; no generic bilateral-side contract; no generic prompt/camera/mask/COLOR claim",
+  "component": "CMP-FACE-EYE-BILATERAL",
+  "database": "PASS: 8 migrations unchanged",
+  "dependency": "PASS: 209 modules, 567 edges, 3 pre-existing SCCs, 0 new SCCs, 0 duplicate groups",
+  "documentation": "PASS: micro-component truth dossier and governance records; Markdown line budget >150 = 0",
+  "git": "NOT_APPLICABLE: project is not a Git repository",
+  "implementation": {
+    "cache_algorithm_changed": false,
+    "color_changed": false,
+    "database_changed": false,
+    "gaze_changed": false,
+    "generator_version": "9 -> 10",
+    "public_exports_changed": false,
+    "renderer_changed": false,
+    "runtime_changed_files": [
+      "src/visual_engine/components/face/eyes/generator.py",
+      "src/visual_engine/components/face/generators.py"
+    ]
+  },
+  "protocol": {
+    "ARCHITECT": "PASS",
+    "CAPABILITY_ROUTING": "PASS",
+    "CERTIFY": "BOUNDED_SCOPE_PASS",
+    "CONTRACT": "PASS",
+    "DOCUMENT": "PASS",
+    "EVIDENCE": "PASS",
+    "HOSTILE_TEST": "PASS_BOUNDED",
+    "IDENTIFY": "PASS",
+    "IMPACT": "PASS",
+    "IMPLEMENT": "PASS",
+    "INTEGRATE": "PASS_BOUNDED_CURRENT_EVIDENCE",
+    "OPTIMIZE": "PASS_MEASURED_NO_OPTIMIZATION",
+    "PURGE": "PASS",
+    "REVIEW": "PASS_WITH_150_LINE_SIGNAL_RETAINED",
+    "VERIFY": "PASS",
+    "VISUALIZE": "PASS"
+  },
+  "purge": {
+    "__pycache__": 0,
+    "current_artifacts_only": "PASS",
+    "pyc_pyo": 0,
+    "pytest_cache": 0
+  },
+  "scope": "Existing HumanFace left_eye/right_eye bilateral identity propagation at the Eye default-input boundary",
+  "status": "CERTIFIED_BOUNDED_SCOPE",
+  "tests": {
+    "affected_current_suites": "PASS",
+    "compileall": "PASS",
+    "current_full_suite": "TIMEOUT; no complete PASS claim",
+    "fresh_current_executed": 678,
+    "historical_v189_regression": "1548 PASS + 1 expected PostgreSQL skip; historical only"
+  },
+  "version": "V1.91",
+  "visual": "PASS: 4 differential production cases; right-eye owner unchanged, left-eye owner changed as intended; PNGs produced and inspected",
+  "zip_integrity": "Verified externally by unzip -t; final ZIP SHA-256 recorded outside package in V1.91_CHECKSUM.txt"
+}

@@ -1,0 +1,35 @@
+{
+  "version": "V1.83",
+  "status": "AUDIT_CORRECTED",
+  "rules": {
+    "semantic_parent_is_not_aggregate_parent": true,
+    "blueprint_atom_is_not_micro_component": true,
+    "no_implemented_status_without_executable_evidence": true,
+    "no_consumer_without_source_evidence": true
+  },
+  "pupil": {
+    "id": "CMP-EYE-PUPIL",
+    "semantic_parent": "CMP-EYE-IRIS",
+    "aggregate_parent": "CMP-EYE",
+    "owner": "src/visual_engine/components/face/eyes/pupil/spec.py:9-32",
+    "children": ["PupilGlowSpec", "PupilSmokeSpec"],
+    "cross_relations": ["GAZE", "EYELID", "TRANSFORM", "HIGHLIGHT", "VISIBILITY/OCCLUSION"],
+    "runtime_changed": false
+  },
+  "semantic_tree": {
+    "FACE": {
+      "ORBIT_PERIOCULAR": {
+        "EYELID": {},
+        "LASH": {},
+        "EYEBROW": {},
+        "CARUNCLE": {},
+        "EPICANTHIC_FOLD": {},
+        "EYEBALL": {
+          "SCLERA": {},
+          "IRIS": {"PUPIL": {}},
+          "CORNEA": {}
+        }
+      }
+    }
+  }
+}

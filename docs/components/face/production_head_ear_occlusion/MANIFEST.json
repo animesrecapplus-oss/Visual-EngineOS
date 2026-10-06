@@ -1,0 +1,63 @@
+{
+  "component_id": "CMP-PROD-HEAD-EAR-OCCLUSION",
+  "files": {
+    "consumer": "src/visual_engine/runtime/production_head_ear_relations.py:18-65",
+    "source": "src/visual_engine/runtime/production_head_ear_occlusion.py:1-78",
+    "tests": "tests/unit/test_v159_head_ear_occlusion.py:28-114",
+    "visual": "tools/visual_qa_v159_head_ear_occlusion.py:33-92"
+  },
+  "ids": {
+    "adversarial": [
+      "ADV-HEO2-001",
+      "ADV-HEO2-002",
+      "ADV-HEO2-003",
+      "ADV-HEO2-004",
+      "ADV-HEO2-005",
+      "ADV-HEO2-006"
+    ],
+    "contracts": [
+      "CON-HEO2-001",
+      "CON-HEO2-002",
+      "CON-HEO2-003",
+      "CON-HEO2-004",
+      "CON-HEO2-005",
+      "CON-HEO2-006"
+    ],
+    "decisions": [
+      "DEC-HEO2-001",
+      "DEC-HEO2-002",
+      "DEC-HEO2-003",
+      "DEC-HEO2-004"
+    ],
+    "errors": [
+      "ERR-HEO2-001",
+      "ERR-HEO2-002"
+    ],
+    "evidence": [
+      "EVD-HEO2-001",
+      "EVD-HEO2-002",
+      "EVD-HEO2-003",
+      "EVD-HEO2-004"
+    ],
+    "impact": [
+      "IMP-HEO2-001"
+    ],
+    "invariants": [
+      "INV-HEO2-001",
+      "INV-HEO2-002",
+      "INV-HEO2-003",
+      "INV-HEO2-004"
+    ],
+    "relations": [
+      "REL-HEO2-001",
+      "REL-HEO2-002",
+      "REL-HEO2-003",
+      "REL-HEO2-004"
+    ],
+    "tests": [
+      "TST-HEO2-001"
+    ]
+  },
+  "status": "CERTIFIED",
+  "version": "V1.59"
+}

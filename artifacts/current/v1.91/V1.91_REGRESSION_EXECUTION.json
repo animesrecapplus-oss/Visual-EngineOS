@@ -1,0 +1,41 @@
+{
+  "compileall": "PASS",
+  "current_test_collection": 1554,
+  "current_test_files": 161,
+  "fresh_current_total_executed": 678,
+  "fresh_current_validation": {
+    "affected_ocular_and_face_unit_suite": {
+      "collected": 75,
+      "failed": 0,
+      "skipped": 0,
+      "status": "PASS"
+    },
+    "affected_production_unit_suite": {
+      "collected": 139,
+      "failed": 0,
+      "skipped": 0,
+      "status": "PASS"
+    },
+    "tests_components_and_integration": {
+      "collected": 470,
+      "failed": 0,
+      "skipped": 1,
+      "status": "PASS"
+    }
+  },
+  "historical_baseline": {
+    "collected": 1549,
+    "expected_postgresql_skip": 1,
+    "failed": 0,
+    "passed": 1548,
+    "status": "CERTIFIED_HISTORICAL_EVIDENCE_ONLY",
+    "version": "V1.89"
+  },
+  "monolithic_current_suite": {
+    "claim": "No complete-current-suite PASS is made.",
+    "reason": "Execution exceeded the available wall-clock limit before completion.",
+    "status": "TIMEOUT"
+  },
+  "note": "The two unit-scope lists overlap only on the 6-test V1.91 file; unique fresh current tests executed = 678.",
+  "version": "V1.91"
+}

@@ -1,0 +1,27 @@
+{
+  "version": "V1.91",
+  "baseline": "V1.89",
+  "scope": "default Eye input-boundary construction only",
+  "BASELINE": {
+    "median_ns_per_default_input": 9235.2503,
+    "samples": [
+      9135.80785,
+      9235.2503,
+      9618.0106,
+      9233.030225,
+      9312.98595
+    ]
+  },
+  "MEASURED_RESULT": {
+    "median_ns_per_default_input": 9799.03435,
+    "samples": [
+      9764.644675,
+      9799.03435,
+      9990.99815,
+      9763.87145,
+      10014.99625
+    ]
+  },
+  "delta_percent": 6.104697021584788,
+  "optimization": "NOT_PERFORMED"
+}

@@ -1,0 +1,5 @@
+{
+  "metadata": "docs/components/eyes/blueprint/metadata.json",
+  "streams": "docs/components/eyes/blueprint/streams/index.json",
+  "tasks": "docs/components/eyes/blueprint/tasks/index.json"
+}

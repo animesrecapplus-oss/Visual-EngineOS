@@ -1,0 +1,68 @@
+{
+  "component_id": "CMP-RUNTIME-PRODUCTION-PAIR-OCCLUSION",
+  "files": {
+    "hair_adapter": "src/visual_engine/runtime/production_hair_ear_occlusion.py:1-77",
+    "head_adapter": "src/visual_engine/runtime/production_head_ear_occlusion.py:1-78",
+    "production": [
+      "src/visual_engine/runtime/production_hair_ear_occlusion.py:67-76",
+      "src/visual_engine/runtime/production_head_ear_occlusion.py:70-78"
+    ],
+    "source": "src/visual_engine/runtime/production_pair_occlusion.py:1-107",
+    "tests": "tests/unit/test_v159_head_ear_occlusion.py:28-114",
+    "visibility": "src/visual_engine/runtime/visibility.py:254-259"
+  },
+  "ids": {
+    "adversarial": [
+      "ADV-PAIR-001",
+      "ADV-PAIR-002",
+      "ADV-PAIR-003",
+      "ADV-PAIR-004",
+      "ADV-PAIR-005",
+      "ADV-PAIR-006"
+    ],
+    "contracts": [
+      "CON-PAIR-001",
+      "CON-PAIR-002",
+      "CON-PAIR-003",
+      "CON-PAIR-004",
+      "CON-PAIR-005",
+      "CON-PAIR-006"
+    ],
+    "decisions": [
+      "DEC-PAIR-001",
+      "DEC-PAIR-002",
+      "DEC-PAIR-003",
+      "DEC-PAIR-004"
+    ],
+    "errors": [
+      "ERR-PAIR-001",
+      "ERR-PAIR-002"
+    ],
+    "evidence": [
+      "EVD-PAIR-001",
+      "EVD-PAIR-002",
+      "EVD-PAIR-003",
+      "EVD-PAIR-004"
+    ],
+    "impact": [
+      "IMP-PAIR-001"
+    ],
+    "invariants": [
+      "INV-PAIR-001",
+      "INV-PAIR-002",
+      "INV-PAIR-003",
+      "INV-PAIR-004"
+    ],
+    "relations": [
+      "REL-PAIR-001",
+      "REL-PAIR-002",
+      "REL-PAIR-003",
+      "REL-PAIR-004"
+    ],
+    "tests": [
+      "TST-PAIR-001"
+    ]
+  },
+  "status": "CERTIFIED",
+  "version": "V1.59"
+}

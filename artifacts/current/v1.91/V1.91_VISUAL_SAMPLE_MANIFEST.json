@@ -1,0 +1,53 @@
+{
+  "baseline": "V1.89",
+  "cases": [
+    {
+      "baseline_png": "artifacts/current/v1.91/V1.91_BASELINE_normal.png",
+      "baseline_svg": "artifacts/current/v1.91/V1.91_BASELINE_normal.svg",
+      "comparison_png": "artifacts/current/v1.91/V1.91_EYES_COMPARISON_normal.png",
+      "current_png": "artifacts/current/v1.91/V1.91_CURRENT_normal.png",
+      "current_svg": "artifacts/current/v1.91/V1.91_CURRENT_normal.svg",
+      "left_eye_changed": true,
+      "name": "normal",
+      "right_eye_unchanged": true,
+      "svg_changed": true
+    },
+    {
+      "baseline_png": "artifacts/current/v1.91/V1.91_BASELINE_rotation_plus30.png",
+      "baseline_svg": "artifacts/current/v1.91/V1.91_BASELINE_rotation_plus30.svg",
+      "comparison_png": "artifacts/current/v1.91/V1.91_EYES_COMPARISON_rotation_plus30.png",
+      "current_png": "artifacts/current/v1.91/V1.91_CURRENT_rotation_plus30.png",
+      "current_svg": "artifacts/current/v1.91/V1.91_CURRENT_rotation_plus30.svg",
+      "left_eye_changed": true,
+      "name": "rotation_plus30",
+      "right_eye_unchanged": true,
+      "svg_changed": true
+    },
+    {
+      "baseline_png": "artifacts/current/v1.91/V1.91_BASELINE_rotation_minus30.png",
+      "baseline_svg": "artifacts/current/v1.91/V1.91_BASELINE_rotation_minus30.svg",
+      "comparison_png": "artifacts/current/v1.91/V1.91_EYES_COMPARISON_rotation_minus30.png",
+      "current_png": "artifacts/current/v1.91/V1.91_CURRENT_rotation_minus30.png",
+      "current_svg": "artifacts/current/v1.91/V1.91_CURRENT_rotation_minus30.svg",
+      "left_eye_changed": true,
+      "name": "rotation_minus30",
+      "right_eye_unchanged": true,
+      "svg_changed": true
+    },
+    {
+      "baseline_png": "artifacts/current/v1.91/V1.91_BASELINE_interaction_zoom.png",
+      "baseline_svg": "artifacts/current/v1.91/V1.91_BASELINE_interaction_zoom.svg",
+      "comparison_png": "artifacts/current/v1.91/V1.91_EYES_COMPARISON_interaction_zoom.png",
+      "current_png": "artifacts/current/v1.91/V1.91_CURRENT_interaction_zoom.png",
+      "current_svg": "artifacts/current/v1.91/V1.91_CURRENT_interaction_zoom.svg",
+      "left_eye_changed": true,
+      "name": "interaction_zoom",
+      "right_eye_unchanged": true,
+      "svg_changed": true
+    }
+  ],
+  "current": "V1.91",
+  "pipeline": "PROMPT\u2192PARAMETERS\u2192PROVENANCE\u2192PERSISTENCE\u2192RESOLUTION\u2192CODE\u2192EXECUTION\u2192FRAME/IMAGE\u2192INSPECTION\u2192DIAGNOSIS\u2192CORRECTION\u2192TEST\u2192NEW EXECUTION",
+  "status": "PASS",
+  "version": "V1.91"
+}

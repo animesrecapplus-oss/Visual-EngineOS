@@ -1,0 +1,128 @@
+[
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PRM.validation and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR",
+      "COL",
+      "EXP",
+      "CAM"
+    ],
+    "develop": "Implement PRM.validation as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "validation avant rendu",
+    "id": "PRM.validation",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "PRM",
+    "test": "Test PRM.validation with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Prompt → spécification visuelle → rendu",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PRM.explainability and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR",
+      "COL",
+      "EXP",
+      "CAM"
+    ],
+    "develop": "Implement PRM.explainability as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "traçabilité paramètre→géométrie",
+    "id": "PRM.explainability",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "PRM",
+    "test": "Test PRM.explainability with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Prompt → spécification visuelle → rendu",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PRM.roundtrip and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR",
+      "COL",
+      "EXP",
+      "CAM"
+    ],
+    "develop": "Implement PRM.roundtrip as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "round-trip spec↔parameters",
+    "id": "PRM.roundtrip",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "PRM",
+    "test": "Test PRM.roundtrip with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Prompt → spécification visuelle → rendu",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PRM.prompt_style and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR",
+      "COL",
+      "EXP",
+      "CAM"
+    ],
+    "develop": "Implement PRM.prompt_style as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "style",
+    "id": "PRM.prompt_style",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "PRM",
+    "test": "Test PRM.prompt_style with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Prompt → spécification visuelle → rendu",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PRM.prompt_expression and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR",
+      "COL",
+      "EXP",
+      "CAM"
+    ],
+    "develop": "Implement PRM.prompt_expression as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "expression",
+    "id": "PRM.prompt_expression",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "PRM",
+    "test": "Test PRM.prompt_expression with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Prompt → spécification visuelle → rendu",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PRM.prompt_camera and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR",
+      "COL",
+      "EXP",
+      "CAM"
+    ],
+    "develop": "Implement PRM.prompt_camera as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "caméra",
+    "id": "PRM.prompt_camera",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "PRM",
+    "test": "Test PRM.prompt_camera with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Prompt → spécification visuelle → rendu",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  }
+]

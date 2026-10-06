@@ -1,0 +1,14 @@
+{
+  "lifecycle": [
+    "DEVELOP",
+    "TEST",
+    "ARTIFACT",
+    "VISUALIZE",
+    "CORRECT",
+    "VALIDATE",
+    "ACCEPT"
+  ],
+  "principle": "atomic/subatomic work breakdown; implementation is not implied by parent stream status",
+  "program": "V1.4_EYE_DEEPENING",
+  "task_count": 285
+}

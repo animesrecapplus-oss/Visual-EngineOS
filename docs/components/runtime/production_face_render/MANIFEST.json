@@ -1,0 +1,168 @@
+{
+  "component_id": "CMP-RUNTIME-PRODUCTION-FACE-RENDER",
+  "consumer": "src/visual_engine/runtime/production_render_session.py",
+  "line_ranges": {
+    "audit": {
+      "line_count": 148,
+      "path": "tools/audit_v167_production_face_render.py",
+      "range": "1-148"
+    },
+    "behavior": {
+      "line_count": 70,
+      "path": "tools/compare_v167_behavior_identity.py",
+      "range": "1-70"
+    },
+    "benchmark": {
+      "line_count": 32,
+      "path": "tools/benchmark_v167_production_face_render.py",
+      "range": "1-32"
+    },
+    "dossier/ADVERSARIAL_TEST_MATRIX.md": {
+      "line_count": 29,
+      "path": "docs/components/runtime/production_face_render/ADVERSARIAL_TEST_MATRIX.md",
+      "range": "1-29"
+    },
+    "dossier/COMPONENT_TRUTH.md": {
+      "line_count": 24,
+      "path": "docs/components/runtime/production_face_render/COMPONENT_TRUTH.md",
+      "range": "1-24"
+    },
+    "dossier/CONTRACTS.md": {
+      "line_count": 19,
+      "path": "docs/components/runtime/production_face_render/CONTRACTS.md",
+      "range": "1-19"
+    },
+    "dossier/DECISIONS.md": {
+      "line_count": 13,
+      "path": "docs/components/runtime/production_face_render/DECISIONS.md",
+      "range": "1-9"
+    },
+    "dossier/DEPENDENCIES_AND_CONSUMERS.md": {
+      "line_count": 25,
+      "path": "docs/components/runtime/production_face_render/DEPENDENCIES_AND_CONSUMERS.md",
+      "range": "1-25"
+    },
+    "dossier/ERRORS.md": {
+      "line_count": 9,
+      "path": "docs/components/runtime/production_face_render/ERRORS.md",
+      "range": "1-8"
+    },
+    "dossier/EVIDENCE.md": {
+      "line_count": 19,
+      "path": "docs/components/runtime/production_face_render/EVIDENCE.md",
+      "range": "1-12"
+    },
+    "dossier/GUARANTEES_AND_STATUS.md": {
+      "line_count": 12,
+      "path": "docs/components/runtime/production_face_render/GUARANTEES_AND_STATUS.md",
+      "range": "1-12"
+    },
+    "dossier/IMPACT_MAP.md": {
+      "line_count": 21,
+      "path": "docs/components/runtime/production_face_render/IMPACT_MAP.md",
+      "range": "1-12"
+    },
+    "dossier/INDEX.md": {
+      "line_count": 10,
+      "path": "docs/components/runtime/production_face_render/INDEX.md",
+      "range": "1-10"
+    },
+    "dossier/INVARIANTS_AND_ASSUMPTIONS.md": {
+      "line_count": 17,
+      "path": "docs/components/runtime/production_face_render/INVARIANTS_AND_ASSUMPTIONS.md",
+      "range": "1-17"
+    },
+    "dossier/PRECHANGE_IMPACT_AUDIT.md": {
+      "line_count": 28,
+      "path": "docs/components/runtime/production_face_render/PRECHANGE_IMPACT_AUDIT.md",
+      "range": "1-28"
+    },
+    "dossier/RELATIONS.md": {
+      "line_count": 19,
+      "path": "docs/components/runtime/production_face_render/RELATIONS.md",
+      "range": "1-13"
+    },
+    "dossier/ROADMAP.md": {
+      "line_count": 14,
+      "path": "docs/components/runtime/production_face_render/ROADMAP.md",
+      "range": "1-14"
+    },
+    "dossier/TEST_STATUS.md": {
+      "line_count": 17,
+      "path": "docs/components/runtime/production_face_render/TEST_STATUS.md",
+      "range": "1-10"
+    },
+    "historical_test_v142": {
+      "line_count": 94,
+      "path": "tests/unit/test_v142_resolution_cache_lifetime.py",
+      "range": "1-94"
+    },
+    "historical_test_v143": {
+      "line_count": 45,
+      "path": "tests/unit/test_v143_production_consumer_audit.py",
+      "range": "1-45"
+    },
+    "historical_test_v162": {
+      "line_count": 80,
+      "path": "tests/unit/test_v162_production_owner_geometry.py",
+      "range": "1-80"
+    },
+    "line_audit": {
+      "line_count": 19,
+      "path": "tools/audit_v167_all_manifest_line_ranges.py",
+      "range": "1-19"
+    },
+    "owner_source": {
+      "line_count": 95,
+      "path": "src/visual_engine/runtime/production_face_render.py",
+      "range": "1-95"
+    },
+    "owner_source_specific": {
+      "path": "src/visual_engine/runtime/production_face_render.py",
+      "ranges": [
+        "1-95",
+        "38-50",
+        "52-95"
+      ]
+    },
+    "parent_consumer": {
+      "line_count": 118,
+      "path": "src/visual_engine/runtime/production_render_session.py",
+      "range": "1-118"
+    },
+    "parent_consumer_specific": {
+      "path": "src/visual_engine/runtime/production_render_session.py",
+      "ranges": [
+        "9-9",
+        "63-92"
+      ]
+    },
+    "public_compatibility": {
+      "line_count": 266,
+      "path": "src/visual_engine/runtime/__init__.py",
+      "range": "1-266"
+    },
+    "public_compatibility_specific": {
+      "path": "src/visual_engine/runtime/__init__.py",
+      "ranges": [
+        "253-266"
+      ]
+    },
+    "tests": {
+      "line_count": 88,
+      "path": "tests/unit/test_v167_production_face_render.py",
+      "range": "1-88"
+    },
+    "truth_validation": {
+      "line_count": 17,
+      "path": "tools/validate_v167_production_face_render_truth.py",
+      "range": "1-17"
+    },
+    "visual": {
+      "line_count": 87,
+      "path": "tools/visual_qa_v167_production_face_render.py",
+      "range": "1-87"
+    }
+  },
+  "owner": "src/visual_engine/runtime/production_face_render.py"
+}

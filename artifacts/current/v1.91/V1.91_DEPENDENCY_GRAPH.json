@@ -1,0 +1,44 @@
+{
+  "version": "V1.91",
+  "baseline": "V1.89",
+  "baseline_modules": 209,
+  "current_modules": 209,
+  "baseline_edges": 567,
+  "current_edges": 567,
+  "preexisting_scc": [
+    [
+      "visual_engine.runtime.appearance_contract",
+      "visual_engine.runtime.appearance_layers",
+      "visual_engine.runtime.appearance_role_bridge"
+    ],
+    [
+      "visual_engine.runtime.base_resolution",
+      "visual_engine.runtime.color_resolution",
+      "visual_engine.runtime.typed_appearance_input"
+    ],
+    [
+      "visual_engine.runtime.coverage",
+      "visual_engine.runtime.visibility"
+    ]
+  ],
+  "current_scc": [
+    [
+      "visual_engine.runtime.appearance_contract",
+      "visual_engine.runtime.appearance_layers",
+      "visual_engine.runtime.appearance_role_bridge"
+    ],
+    [
+      "visual_engine.runtime.base_resolution",
+      "visual_engine.runtime.color_resolution",
+      "visual_engine.runtime.typed_appearance_input"
+    ],
+    [
+      "visual_engine.runtime.coverage",
+      "visual_engine.runtime.visibility"
+    ]
+  ],
+  "new_scc": [],
+  "baseline_duplicate_groups": [],
+  "duplicate_groups": [],
+  "status": "PASS"
+}

@@ -1,0 +1,135 @@
+[
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for OCC.occluder_geometry and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "LID",
+      "PAIR"
+    ],
+    "develop": "Implement OCC.occluder_geometry as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "géométrie occluder",
+    "id": "OCC.occluder_geometry",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "OCC",
+    "test": "Test OCC.occluder_geometry with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Occlusion, interaction et état",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for OCC.depth and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "LID",
+      "PAIR"
+    ],
+    "develop": "Implement OCC.depth as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "profondeur",
+    "id": "OCC.depth",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "OCC",
+    "test": "Test OCC.depth with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Occlusion, interaction et état",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for OCC.transmission and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "LID",
+      "PAIR"
+    ],
+    "develop": "Implement OCC.transmission as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "transmission",
+    "id": "OCC.transmission",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "OCC",
+    "test": "Test OCC.transmission with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Occlusion, interaction et état",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for OCC.causal_attribution and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "LID",
+      "PAIR"
+    ],
+    "develop": "Implement OCC.causal_attribution as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "attribution causale",
+    "id": "OCC.causal_attribution",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "OCC",
+    "test": "Test OCC.causal_attribution with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Occlusion, interaction et état",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for OCC.hand_cover and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "LID",
+      "PAIR"
+    ],
+    "develop": "Implement OCC.hand_cover as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "main couvrant",
+    "id": "OCC.hand_cover",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "OCC",
+    "test": "Test OCC.hand_cover with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Occlusion, interaction et état",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for OCC.hair_cover and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "LID",
+      "PAIR"
+    ],
+    "develop": "Implement OCC.hair_cover as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "cheveux couvrant",
+    "id": "OCC.hair_cover",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "OCC",
+    "test": "Test OCC.hair_cover with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Occlusion, interaction et état",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for OCC.glasses_cover and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "LID",
+      "PAIR"
+    ],
+    "develop": "Implement OCC.glasses_cover as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "lunettes couvrant",
+    "id": "OCC.glasses_cover",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "OCC",
+    "test": "Test OCC.glasses_cover with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Occlusion, interaction et état",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  }
+]

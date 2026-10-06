@@ -1,0 +1,76 @@
+{
+  "component_id": "CMP-RUNTIME-PRODUCTION-FACE-OVERLAP-VISIBILITY",
+  "files": {
+    "source": "src/visual_engine/runtime/production_face_overlap_visibility.py:1-111",
+    "consumer": "src/visual_engine/runtime/production_face_overlap_relations.py:33-61",
+    "owner_geometry": "src/visual_engine/runtime/production_owner_geometry.py:8-67",
+    "public_api": "src/visual_engine/runtime/__init__.py:247-251",
+    "tests": "tests/unit/test_v160_production_face_overlap_visibility.py:1-76"
+  },
+  "ids": {
+    "adversarial": [
+      "ADV-FOV-001",
+      "ADV-FOV-002",
+      "ADV-FOV-003",
+      "ADV-FOV-004",
+      "ADV-FOV-005",
+      "ADV-FOV-006",
+      "ADV-FOV-007",
+      "ADV-FOV-008"
+    ],
+    "contracts": [
+      "CON-FOV-001",
+      "CON-FOV-002",
+      "CON-FOV-003",
+      "CON-FOV-004",
+      "CON-FOV-005",
+      "CON-FOV-006",
+      "CON-FOV-007"
+    ],
+    "decisions": [
+      "DEC-FOV-001",
+      "DEC-FOV-002",
+      "DEC-FOV-003",
+      "DEC-FOV-004",
+      "DEC-FOV-005"
+    ],
+    "errors": [
+      "ERR-FOV-001",
+      "ERR-FOV-002"
+    ],
+    "evidence": [
+      "EVD-FOV-001",
+      "EVD-FOV-002",
+      "EVD-FOV-003",
+      "EVD-FOV-004",
+      "EVD-FOV-005",
+      "EVD-FOV-006"
+    ],
+    "impact": [
+      "IMP-FOV-001"
+    ],
+    "invariants": [
+      "INV-FOV-001",
+      "INV-FOV-002",
+      "INV-FOV-003",
+      "INV-FOV-004",
+      "INV-FOV-005",
+      "INV-FOV-006"
+    ],
+    "relations": [
+      "REL-FOV-001",
+      "REL-FOV-002",
+      "REL-FOV-003",
+      "REL-FOV-004",
+      "REL-FOV-005",
+      "REL-FOV-006"
+    ],
+    "tests": [
+      "TST-FOV-001",
+      "TST-FOV-002",
+      "TST-FOV-003"
+    ]
+  },
+  "status": "CERTIFIED",
+  "version": "V1.60"
+}

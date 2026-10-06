@@ -1,0 +1,131 @@
+[
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PRM.prompt_color and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR",
+      "COL",
+      "EXP",
+      "CAM"
+    ],
+    "develop": "Implement PRM.prompt_color as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "couleur",
+    "id": "PRM.prompt_color",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "PRM",
+    "test": "Test PRM.prompt_color with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Prompt → spécification visuelle → rendu",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PAIR.shared_identity and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR",
+      "EXP"
+    ],
+    "develop": "Implement PAIR.shared_identity as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "identité structurelle partagée",
+    "id": "PAIR.shared_identity",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "PAIR",
+    "test": "Test PAIR.shared_identity with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Paire bilatérale et identité",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PAIR.controlled_asymmetry and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR",
+      "EXP"
+    ],
+    "develop": "Implement PAIR.controlled_asymmetry as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "asymétrie contrôlée",
+    "id": "PAIR.controlled_asymmetry",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "PAIR",
+    "test": "Test PAIR.controlled_asymmetry with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Paire bilatérale et identité",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PAIR.heterochromia and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR",
+      "EXP"
+    ],
+    "develop": "Implement PAIR.heterochromia as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "hétérochromie",
+    "id": "PAIR.heterochromia",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "PAIR",
+    "test": "Test PAIR.heterochromia with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Paire bilatérale et identité",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PAIR.shared_expression and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR",
+      "EXP"
+    ],
+    "develop": "Implement PAIR.shared_expression as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "expression partagée",
+    "id": "PAIR.shared_expression",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "PAIR",
+    "test": "Test PAIR.shared_expression with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Paire bilatérale et identité",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PAIR.independent_overrides and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR",
+      "EXP"
+    ],
+    "develop": "Implement PAIR.independent_overrides as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "overrides indépendants",
+    "id": "PAIR.independent_overrides",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "PAIR",
+    "test": "Test PAIR.independent_overrides with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Paire bilatérale et identité",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PAIR.axis_alignment and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR",
+      "EXP"
+    ],
+    "develop": "Implement PAIR.axis_alignment as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "axe commun",
+    "id": "PAIR.axis_alignment",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "PAIR",
+    "test": "Test PAIR.axis_alignment with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Paire bilatérale et identité",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  }
+]

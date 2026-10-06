@@ -1,0 +1,20 @@
+{
+  "component": "CMP-EYE-EYEBROW",
+  "version": "V1.87",
+  "owner": "src/visual_engine/components/face/eyes/eyebrow/spec.py:8-53",
+  "scope": "BrowSpec local boolean/type/finiteness input hardening",
+  "status": "CERTIFIED",
+  "certification": "PASS",
+  "stable_ids": [
+    "CMP-EYE-EYEBROW",
+    "CON-EYEBROW-001",
+    "INV-EYEBROW-001",
+    "TST-EYEBROW-001",
+    "ADV-EYEBROW-001",
+    "REL-EYEBROW-001",
+    "DEC-EYEBROW-001",
+    "ERR-EYEBROW-001",
+    "IMP-EYEBROW-001",
+    "EVD-EYEBROW-001"
+  ]
+}

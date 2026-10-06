@@ -1,0 +1,138 @@
+[
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for COL.shadow_color and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN"
+    ],
+    "develop": "Implement COL.shadow_color as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "couleur ombre",
+    "id": "COL.shadow_color",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "COL",
+    "test": "Test COL.shadow_color with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Couleur et comportement chromatique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for COL.lighting_response and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN"
+    ],
+    "develop": "Implement COL.lighting_response as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "réponse éclairage",
+    "id": "COL.lighting_response",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "COL",
+    "test": "Test COL.lighting_response with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Couleur et comportement chromatique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for COL.material_response and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN"
+    ],
+    "develop": "Implement COL.material_response as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "réponse matériau",
+    "id": "COL.material_response",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "COL",
+    "test": "Test COL.material_response with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Couleur et comportement chromatique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for COL.transmission and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN"
+    ],
+    "develop": "Implement COL.transmission as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "transmission",
+    "id": "COL.transmission",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "COL",
+    "test": "Test COL.transmission with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Couleur et comportement chromatique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for COL.reflection and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN"
+    ],
+    "develop": "Implement COL.reflection as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "réflexion",
+    "id": "COL.reflection",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "COL",
+    "test": "Test COL.reflection with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Couleur et comportement chromatique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for COL.style_response and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN"
+    ],
+    "develop": "Implement COL.style_response as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "réponse style",
+    "id": "COL.style_response",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "COL",
+    "test": "Test COL.style_response with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Couleur et comportement chromatique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for COL.effective_appearance and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN"
+    ],
+    "develop": "Implement COL.effective_appearance as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "apparence effective",
+    "id": "COL.effective_appearance",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "COL",
+    "test": "Test COL.effective_appearance with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Couleur et comportement chromatique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for COL.contrast and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN"
+    ],
+    "develop": "Implement COL.contrast as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "contraste/local contrast",
+    "id": "COL.contrast",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "COL",
+    "test": "Test COL.contrast with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Couleur et comportement chromatique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  }
+]

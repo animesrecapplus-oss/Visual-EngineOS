@@ -1,0 +1,137 @@
+[
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for VAR.coverage_matrix and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR",
+      "PUP",
+      "IRI",
+      "LAS",
+      "BRW",
+      "HIL",
+      "COL",
+      "EXP",
+      "CAM",
+      "STY"
+    ],
+    "develop": "Implement VAR.coverage_matrix as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "couverture combinatoire",
+    "id": "VAR.coverage_matrix",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "VAR",
+    "test": "Test VAR.coverage_matrix with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Variation quasi-infinie et défaut esthétique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for VAR.collision_detection and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR",
+      "PUP",
+      "IRI",
+      "LAS",
+      "BRW",
+      "HIL",
+      "COL",
+      "EXP",
+      "CAM",
+      "STY"
+    ],
+    "develop": "Implement VAR.collision_detection as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "détection de collisions de paramètres",
+    "id": "VAR.collision_detection",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "VAR",
+    "test": "Test VAR.collision_detection with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Variation quasi-infinie et défaut esthétique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for VAR.distribution and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR",
+      "PUP",
+      "IRI",
+      "LAS",
+      "BRW",
+      "HIL",
+      "COL",
+      "EXP",
+      "CAM",
+      "STY"
+    ],
+    "develop": "Implement VAR.distribution as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "distribution statistique",
+    "id": "VAR.distribution",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "VAR",
+    "test": "Test VAR.distribution with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Variation quasi-infinie et défaut esthétique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for RND.svg_geometry and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "VAR",
+      "CAM"
+    ],
+    "develop": "Implement RND.svg_geometry as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "SVG géométrique",
+    "id": "RND.svg_geometry",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "RND",
+    "test": "Test RND.svg_geometry with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Rendu, artefacts et validation visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for RND.renderer_neutral and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "VAR",
+      "CAM"
+    ],
+    "develop": "Implement RND.renderer_neutral as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "contrat renderer-neutral",
+    "id": "RND.renderer_neutral",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "RND",
+    "test": "Test RND.renderer_neutral with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Rendu, artefacts et validation visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for RND.raster_reference and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "VAR",
+      "CAM"
+    ],
+    "develop": "Implement RND.raster_reference as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "raster de référence",
+    "id": "RND.raster_reference",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "RND",
+    "test": "Test RND.raster_reference with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Rendu, artefacts et validation visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  }
+]

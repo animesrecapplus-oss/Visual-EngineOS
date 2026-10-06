@@ -1,0 +1,88 @@
+{
+  "checkpoint": "V1.91 final pre-certification source snapshot",
+  "files": {
+    "src/visual_engine/components/face/eyes/generator.py": {
+      "lines": 248,
+      "sha256": "fa754ef116485f31bf26308963945d660210b0036c3fa606b95e31afdfc81314"
+    },
+    "src/visual_engine/components/face/generators.py": {
+      "lines": 362,
+      "sha256": "c8fe0f3f3e26800bf6aa3683a4e5eb366f5dc31be44bf5febf92dac6009c8ba8"
+    },
+    "src/visual_engine/entities/face.py": {
+      "lines": 76,
+      "sha256": "e62039b786ce213b022cc2b1e1766854a16b787f68c2ad9eee4482b357346da5"
+    },
+    "src/visual_engine/runtime/generation.py": {
+      "lines": 92,
+      "sha256": "69bc29a2762c13be90883af1835aaf5d57ae5c5489106adf02aa07cf5b9b9c5d"
+    },
+    "tests/unit/test_v110_alignment_axis_and_prompt_reference.py": {
+      "lines": 157,
+      "sha256": "0925a5beecf74ca32e5e7abcabd9d27bba82880f4910a5d348a037c6a13b0e4a"
+    },
+    "tests/unit/test_v113_spherical_eyeball.py": {
+      "lines": 176,
+      "sha256": "82583be28cd4e07407b537853764c14c84b7356f6e6bf5793d876867bf4a7ad0"
+    },
+    "tests/unit/test_v117_alignment_globe_aperture_coupling.py": {
+      "lines": 100,
+      "sha256": "3152dc99a731d8bffed2959fb1f1eb7dfe019e51a72bc8f793510920261bf317"
+    },
+    "tests/unit/test_v191_human_face_bilateral_identity.py": {
+      "lines": 74,
+      "sha256": "015b148c70c6688745c4e186c8eb076ac65c322a225a35a21179dd9fce159aa6"
+    }
+  },
+  "ranges": {
+    "FILE-FEB-001": {
+      "checkpoint": "V1.91 final pre-certification source snapshot",
+      "file": "src/visual_engine/components/face/eyes/generator.py",
+      "file_hash": "fa754ef116485f31bf26308963945d660210b0036c3fa606b95e31afdfc81314",
+      "line_end": 171,
+      "line_start": 156,
+      "symbol": "Eye default input owner"
+    },
+    "FILE-FEB-002": {
+      "checkpoint": "V1.91 final pre-certification source snapshot",
+      "file": "src/visual_engine/components/face/generators.py",
+      "file_hash": "c8fe0f3f3e26800bf6aa3683a4e5eb366f5dc31be44bf5febf92dac6009c8ba8",
+      "line_end": 111,
+      "line_start": 107,
+      "symbol": "HumanFace eye-pair dependency boundary after stale helper removal"
+    },
+    "FILE-FEB-003": {
+      "checkpoint": "V1.91 final pre-certification source snapshot",
+      "file": "src/visual_engine/entities/face.py",
+      "file_hash": "e62039b786ce213b022cc2b1e1766854a16b787f68c2ad9eee4482b357346da5",
+      "line_end": 21,
+      "line_start": 19,
+      "symbol": "HumanFace left/right child identity authoring"
+    },
+    "FILE-FEB-004": {
+      "checkpoint": "V1.91 final pre-certification source snapshot",
+      "file": "src/visual_engine/runtime/generation.py",
+      "file_hash": "69bc29a2762c13be90883af1835aaf5d57ae5c5489106adf02aa07cf5b9b9c5d",
+      "line_end": 84,
+      "line_start": 51,
+      "symbol": "production dependency generation orchestration"
+    },
+    "FILE-FEB-005": {
+      "checkpoint": "V1.91 final pre-certification source snapshot",
+      "file": "tests/unit/test_v191_human_face_bilateral_identity.py",
+      "file_hash": "015b148c70c6688745c4e186c8eb076ac65c322a225a35a21179dd9fce159aa6",
+      "line_end": 72,
+      "line_start": 1,
+      "symbol": "V1.91 focused tests"
+    },
+    "FILE-FEB-006": {
+      "checkpoint": "V1.91 final pre-certification source snapshot",
+      "file": "src/visual_engine/components/face/eyes/generator.py",
+      "file_hash": "fa754ef116485f31bf26308963945d660210b0036c3fa606b95e31afdfc81314",
+      "line_end": 23,
+      "line_start": 22,
+      "symbol": "Eye generator version"
+    }
+  },
+  "version": "V1.91"
+}

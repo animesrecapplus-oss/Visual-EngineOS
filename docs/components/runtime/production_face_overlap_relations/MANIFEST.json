@@ -1,0 +1,104 @@
+{
+  "component_id": "CMP-RUNTIME-PRODUCTION-FACE-OVERLAP-RELATIONS",
+  "version": "V1.65",
+  "status": "CERTIFIED",
+  "owner": "src/visual_engine/runtime/production_face_overlap_relations.py:26-61",
+  "files": {
+    "source": "src/visual_engine/runtime/production_face_overlap_relations.py:1-61",
+    "consumer": "src/visual_engine/runtime/production_face_render.py:83-85",
+    "public_api": "src/visual_engine/runtime/__init__.py:248-261",
+    "tests": "tests/unit/test_v165_production_face_overlap_relations.py:1-100",
+    "visual": "tools/visual_qa_v165_production_face_overlap_relations.py:1-90",
+    "benchmark": "tools/benchmark_v165_production_face_overlap_relations.py:1-39",
+    "behavior_identity": "tools/compare_v165_behavior_identity.py:1-81",
+    "truth_validator": "tools/validate_v165_production_face_overlap_relations_truth.py:1-58",
+    "line_range_audit": "tools/audit_v165_all_manifest_line_ranges.py:1-34",
+    "source_audit": "tools/audit_v165_production_face_overlap_relations.py:1-84"
+  },
+  "ids": {
+    "CMP": [
+      "CMP-RUNTIME-PRODUCTION-FACE-OVERLAP-RELATIONS"
+    ],
+    "FILE": [
+      "FILE-FPOR-001",
+      "FILE-FPOR-002",
+      "FILE-FPOR-003",
+      "FILE-FPOR-004",
+      "FILE-FPOR-005",
+      "FILE-FPOR-006",
+      "FILE-FPOR-007"
+    ],
+    "CON": [
+      "CON-FPOR-001",
+      "CON-FPOR-002",
+      "CON-FPOR-003",
+      "CON-FPOR-004",
+      "CON-FPOR-005",
+      "CON-FPOR-006",
+      "CON-FPOR-007",
+      "CON-FPOR-008"
+    ],
+    "INV": [
+      "INV-FPOR-001",
+      "INV-FPOR-002",
+      "INV-FPOR-003",
+      "INV-FPOR-004",
+      "INV-FPOR-005",
+      "INV-FPOR-006",
+      "INV-FPOR-007"
+    ],
+    "TST": [
+      "TST-FPOR-001"
+    ],
+    "ADV": [
+      "ADV-FPOR-001",
+      "ADV-FPOR-002",
+      "ADV-FPOR-003",
+      "ADV-FPOR-004",
+      "ADV-FPOR-005",
+      "ADV-FPOR-006",
+      "ADV-FPOR-007",
+      "ADV-FPOR-008",
+      "ADV-FPOR-009",
+      "ADV-FPOR-010"
+    ],
+    "REL": [
+      "REL-FPOR-001",
+      "REL-FPOR-002",
+      "REL-FPOR-003",
+      "REL-FPOR-004",
+      "REL-FPOR-005",
+      "REL-FPOR-006"
+    ],
+    "DEC": [
+      "DEC-FPOR-001",
+      "DEC-FPOR-002",
+      "DEC-FPOR-003",
+      "DEC-FPOR-004",
+      "DEC-FPOR-005",
+      "DEC-FPOR-006"
+    ],
+    "ERR": [
+      "ERR-FPOR-001",
+      "ERR-FPOR-002"
+    ],
+    "IMP": [
+      "IMP-FPOR-001",
+      "IMP-FPOR-002",
+      "IMP-FPOR-003",
+      "IMP-FPOR-004",
+      "IMP-FPOR-005",
+      "IMP-FPOR-006"
+    ],
+    "EVD": [
+      "EVD-FPOR-001",
+      "EVD-FPOR-002",
+      "EVD-FPOR-003",
+      "EVD-FPOR-004",
+      "EVD-FPOR-005",
+      "EVD-FPOR-006",
+      "EVD-FPOR-007",
+      "EVD-FPOR-008"
+    ]
+  }
+}

@@ -1,0 +1,138 @@
+[
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for LID.upper_margin and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR"
+    ],
+    "develop": "Implement LID.upper_margin as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "marge supérieure",
+    "id": "LID.upper_margin",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "LID",
+    "test": "Test LID.upper_margin with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Paupières et plis",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for LID.lower_margin and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR"
+    ],
+    "develop": "Implement LID.lower_margin as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "marge inférieure",
+    "id": "LID.lower_margin",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "LID",
+    "test": "Test LID.lower_margin with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Paupières et plis",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for LID.upper_fold and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR"
+    ],
+    "develop": "Implement LID.upper_fold as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "pli supérieur",
+    "id": "LID.upper_fold",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "LID",
+    "test": "Test LID.upper_fold with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Paupières et plis",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for LID.lower_fold and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR"
+    ],
+    "develop": "Implement LID.lower_fold as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "pli inférieur",
+    "id": "LID.lower_fold",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "LID",
+    "test": "Test LID.lower_fold with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Paupières et plis",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for LID.closure and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR"
+    ],
+    "develop": "Implement LID.closure as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "fermeture continue",
+    "id": "LID.closure",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "LID",
+    "test": "Test LID.closure with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Paupières et plis",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for LID.opening_shape and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR"
+    ],
+    "develop": "Implement LID.opening_shape as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "forme de l’ouverture",
+    "id": "LID.opening_shape",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "LID",
+    "test": "Test LID.opening_shape with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Paupières et plis",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for LID.canthus_bridge and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR"
+    ],
+    "develop": "Implement LID.canthus_bridge as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "pont de canthus",
+    "id": "LID.canthus_bridge",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "LID",
+    "test": "Test LID.canthus_bridge with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Paupières et plis",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for LID.gaze_follow and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR"
+    ],
+    "develop": "Implement LID.gaze_follow as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "suivi du regard",
+    "id": "LID.gaze_follow",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "LID",
+    "test": "Test LID.gaze_follow with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Paupières et plis",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  }
+]

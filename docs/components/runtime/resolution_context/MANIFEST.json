@@ -1,0 +1,55 @@
+{
+  "component_id": "CMP-RUNTIME-RESOLUTION-CONTEXT",
+  "owner": "src/visual_engine/runtime/resolution_context.py",
+  "status": "CERTIFIED",
+  "line_ranges": {
+    "source": {
+      "path": "src/visual_engine/runtime/resolution_context.py",
+      "range": "10-97"
+    },
+    "resolution_context_class": {
+      "path": "src/visual_engine/runtime/resolution_context.py",
+      "range": "10-97"
+    },
+    "effective_effects": {
+      "path": "src/visual_engine/runtime/resolution_context.py",
+      "range": "81-97"
+    },
+    "legacy_facade_import": {
+      "path": "src/visual_engine/runtime/contract.py",
+      "range": "27-27"
+    },
+    "production_face_consumer": {
+      "path": "src/visual_engine/runtime/production_face_render.py",
+      "range": "17-17"
+    },
+    "production_session_consumer": {
+      "path": "src/visual_engine/runtime/production_render_session.py",
+      "range": "6-6"
+    },
+    "production_styles_consumer": {
+      "path": "src/visual_engine/runtime/production_visual_styles.py",
+      "range": "13-13"
+    },
+    "compatibility_consumer": {
+      "path": "src/visual_engine/runtime/consequence_bindings.py",
+      "range": "175-191"
+    },
+    "public_export": {
+      "path": "src/visual_engine/runtime/__init__.py",
+      "range": "6-8"
+    },
+    "tests": {
+      "path": "tests/components/runtime/resolution_context/test_v168_resolution_context_truth.py",
+      "range": "1-90"
+    },
+    "audit": {
+      "path": "tools/audit_v168_resolution_context.py",
+      "range": "1-213"
+    },
+    "benchmark": {
+      "path": "tools/benchmark_v168_resolution_context.py",
+      "range": "1-53"
+    }
+  }
+}

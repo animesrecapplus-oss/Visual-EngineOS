@@ -1,0 +1,34 @@
+{
+  "component_id": "CMP-FACE-EAR",
+  "consumer_line_ranges": {
+    "src/visual_engine/render/geometry_svg.py": "106-125,179-211",
+    "src/visual_engine/runtime/production_face_render.py": "88-88",
+    "src/visual_engine/runtime/production_render_session.py": "69-69"
+  },
+  "hair_boundary": "PLANNED ONLY; no Hair child promoted by V1.80",
+  "ids": [
+    "CMP",
+    "FILE",
+    "CON",
+    "INV",
+    "TST",
+    "ADV",
+    "REL",
+    "DEC",
+    "ERR",
+    "IMP",
+    "EVD"
+  ],
+  "owner": "src/visual_engine/components/face/ear.py:15-61",
+  "parent": "src/visual_engine/entities/face.py:35-42",
+  "source_line_ranges": {
+    "src/visual_engine/components/face/ear.py": "1-71",
+    "src/visual_engine/components/face/ear_composite.py": "1-87",
+    "src/visual_engine/components/face/production_registry.py": "1-23",
+    "src/visual_engine/entities/face.py": "35-42",
+    "tests/unit/test_v156_production_ear.py": "1-145",
+    "tests/unit/test_v180_ear_input_hardening.py": "1-56"
+  },
+  "status": "CERTIFIED",
+  "version": "V1.80"
+}

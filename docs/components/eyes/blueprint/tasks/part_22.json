@@ -1,0 +1,128 @@
+[
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for EXP.lower_lid and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "BRW",
+      "PUP",
+      "IRI",
+      "HIL"
+    ],
+    "develop": "Implement EXP.lower_lid as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "déformation lid inférieure",
+    "id": "EXP.lower_lid",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "EXP",
+    "test": "Test EXP.lower_lid with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Expression oculaire",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for EXP.brow_angle and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "BRW",
+      "PUP",
+      "IRI",
+      "HIL"
+    ],
+    "develop": "Implement EXP.brow_angle as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "angle sourcil",
+    "id": "EXP.brow_angle",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "EXP",
+    "test": "Test EXP.brow_angle with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Expression oculaire",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for EXP.brow_height and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "BRW",
+      "PUP",
+      "IRI",
+      "HIL"
+    ],
+    "develop": "Implement EXP.brow_height as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "hauteur sourcil",
+    "id": "EXP.brow_height",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "EXP",
+    "test": "Test EXP.brow_height with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Expression oculaire",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for EXP.brow_thickness and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "BRW",
+      "PUP",
+      "IRI",
+      "HIL"
+    ],
+    "develop": "Implement EXP.brow_thickness as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "épaisseur sourcil",
+    "id": "EXP.brow_thickness",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "EXP",
+    "test": "Test EXP.brow_thickness with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Expression oculaire",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for EXP.gaze and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "BRW",
+      "PUP",
+      "IRI",
+      "HIL"
+    ],
+    "develop": "Implement EXP.gaze as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "couplage regard",
+    "id": "EXP.gaze",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "EXP",
+    "test": "Test EXP.gaze with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Expression oculaire",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for EXP.pupil and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "BRW",
+      "PUP",
+      "IRI",
+      "HIL"
+    ],
+    "develop": "Implement EXP.pupil as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "couplage pupille",
+    "id": "EXP.pupil",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "EXP",
+    "test": "Test EXP.pupil with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Expression oculaire",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  }
+]

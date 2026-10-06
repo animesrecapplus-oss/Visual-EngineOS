@@ -1,0 +1,10 @@
+{
+  "component_id": "CMP-RUNTIME-VISIBILITY-DEPTH-RELATION",
+  "files": {
+    "consumer": "src/visual_engine/runtime/production_head_ear_occlusion.py:54-56",
+    "source": "src/visual_engine/runtime/visibility.py:254-259",
+    "test": "tests/unit/test_v147_production_visibility.py:121-133"
+  },
+  "status": "CERTIFIED",
+  "version": "V1.59"
+}

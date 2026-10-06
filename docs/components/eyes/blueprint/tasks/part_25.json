@@ -1,0 +1,128 @@
+[
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for CAM.crop and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR"
+    ],
+    "develop": "Implement CAM.crop as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "crop",
+    "id": "CAM.crop",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "CAM",
+    "test": "Test CAM.crop with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Caméra et rendu des yeux",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for CAM.depth and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR"
+    ],
+    "develop": "Implement CAM.depth as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "profondeur",
+    "id": "CAM.depth",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "CAM",
+    "test": "Test CAM.depth with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Caméra et rendu des yeux",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for CAM.perspective_boundary and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR"
+    ],
+    "develop": "Implement CAM.perspective_boundary as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "frontière 2D/3D",
+    "id": "CAM.perspective_boundary",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "CAM",
+    "test": "Test CAM.perspective_boundary with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Caméra et rendu des yeux",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for CAM.foreshortening and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR"
+    ],
+    "develop": "Implement CAM.foreshortening as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "foreshortening futur",
+    "id": "CAM.foreshortening",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "CAM",
+    "test": "Test CAM.foreshortening with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Caméra et rendu des yeux",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for CAM.lod and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR"
+    ],
+    "develop": "Implement CAM.lod as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "niveau de détail",
+    "id": "CAM.lod",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "CAM",
+    "test": "Test CAM.lod with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Caméra et rendu des yeux",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for CAM.screen_space and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR"
+    ],
+    "develop": "Implement CAM.screen_space as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "contraintes screen-space",
+    "id": "CAM.screen_space",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "CAM",
+    "test": "Test CAM.screen_space with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Caméra et rendu des yeux",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for CAM.highlight_projection and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR"
+    ],
+    "develop": "Implement CAM.highlight_projection as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "projection highlight",
+    "id": "CAM.highlight_projection",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "CAM",
+    "test": "Test CAM.highlight_projection with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Caméra et rendu des yeux",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  }
+]

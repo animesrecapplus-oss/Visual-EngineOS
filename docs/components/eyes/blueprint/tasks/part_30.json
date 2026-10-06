@@ -1,0 +1,130 @@
+[
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PAIR.spacing and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR",
+      "EXP"
+    ],
+    "develop": "Implement PAIR.spacing as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "espacement",
+    "id": "PAIR.spacing",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "PAIR",
+    "test": "Test PAIR.spacing with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Paire bilatérale et identité",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PAIR.scale_relation and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR",
+      "EXP"
+    ],
+    "develop": "Implement PAIR.scale_relation as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "relation d’échelle",
+    "id": "PAIR.scale_relation",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "PAIR",
+    "test": "Test PAIR.scale_relation with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Paire bilatérale et identité",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PAIR.occlusion_side and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR",
+      "EXP"
+    ],
+    "develop": "Implement PAIR.occlusion_side as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "occlusion par côté",
+    "id": "PAIR.occlusion_side",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "PAIR",
+    "test": "Test PAIR.occlusion_side with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Paire bilatérale et identité",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PAIR.pair_signature and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR",
+      "EXP"
+    ],
+    "develop": "Implement PAIR.pair_signature as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "signature paire",
+    "id": "PAIR.pair_signature",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "PAIR",
+    "test": "Test PAIR.pair_signature with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Paire bilatérale et identité",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PAIR.pair_constraints and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR",
+      "EXP"
+    ],
+    "develop": "Implement PAIR.pair_constraints as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "contraintes humaines vs free",
+    "id": "PAIR.pair_constraints",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "PAIR",
+    "test": "Test PAIR.pair_constraints with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Paire bilatérale et identité",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for OCC.coverage and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "LID",
+      "PAIR"
+    ],
+    "develop": "Implement OCC.coverage as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "coverage",
+    "id": "OCC.coverage",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "OCC",
+    "test": "Test OCC.coverage with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Occlusion, interaction et état",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for OCC.partial_occlusion and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "LID",
+      "PAIR"
+    ],
+    "develop": "Implement OCC.partial_occlusion as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "occlusion partielle",
+    "id": "OCC.partial_occlusion",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "OCC",
+    "test": "Test OCC.partial_occlusion with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Occlusion, interaction et état",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  }
+]

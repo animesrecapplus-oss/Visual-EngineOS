@@ -1,0 +1,31 @@
+{
+  "component_id": "CMP-RUNTIME-PRODUCTION-OWNER-GEOMETRY",
+  "status": "CERTIFIED",
+  "owner": "src/visual_engine/runtime/production_owner_geometry.py:8-67",
+  "consumer": [
+    "src/visual_engine/runtime/production_face_render.py:84,90,93",
+    "src/visual_engine/runtime/production_hair_ear_relations.py:46,53",
+    "src/visual_engine/runtime/production_head_ear_relations.py:39,50",
+    "src/visual_engine/runtime/production_face_overlap_visibility.py:82-93"
+  ],
+  "public_api": "src/visual_engine/runtime/__init__.py:249-262",
+  "tests": "tests/unit/test_v162_production_owner_geometry.py:1-80",
+  "ids": [
+    "CMP-POG",
+    "FILE-POG",
+    "CON-POG",
+    "INV-POG",
+    "TST-POG",
+    "ADV-POG",
+    "REL-POG",
+    "DEC-POG",
+    "ERR-POG",
+    "IMP-POG",
+    "EVD-POG"
+  ],
+  "consumers": [
+    "src/visual_engine/runtime/production_face_overlap_visibility.py:82-93",
+    "src/visual_engine/runtime/production_hair_ear_relations.py:46,53",
+    "src/visual_engine/runtime/production_head_ear_relations.py:39,50"
+  ]
+}

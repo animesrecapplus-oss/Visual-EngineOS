@@ -1,0 +1,138 @@
+[
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for COL.rings_color and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN"
+    ],
+    "develop": "Implement COL.rings_color as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "couleur des anneaux",
+    "id": "COL.rings_color",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "COL",
+    "test": "Test COL.rings_color with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Couleur et comportement chromatique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for COL.pigment_variation and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN"
+    ],
+    "develop": "Implement COL.pigment_variation as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "variation pigmentaire",
+    "id": "COL.pigment_variation",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "COL",
+    "test": "Test COL.pigment_variation with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Couleur et comportement chromatique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for COL.pupil_color and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN"
+    ],
+    "develop": "Implement COL.pupil_color as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "couleur pupille",
+    "id": "COL.pupil_color",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "COL",
+    "test": "Test COL.pupil_color with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Couleur et comportement chromatique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for COL.sclera_color and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN"
+    ],
+    "develop": "Implement COL.sclera_color as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "couleur sclère",
+    "id": "COL.sclera_color",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "COL",
+    "test": "Test COL.sclera_color with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Couleur et comportement chromatique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for COL.lid_color and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN"
+    ],
+    "develop": "Implement COL.lid_color as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "couleur paupière",
+    "id": "COL.lid_color",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "COL",
+    "test": "Test COL.lid_color with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Couleur et comportement chromatique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for COL.lash_color and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN"
+    ],
+    "develop": "Implement COL.lash_color as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "couleur cils",
+    "id": "COL.lash_color",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "COL",
+    "test": "Test COL.lash_color with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Couleur et comportement chromatique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for COL.brow_color and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN"
+    ],
+    "develop": "Implement COL.brow_color as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "couleur sourcils",
+    "id": "COL.brow_color",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "COL",
+    "test": "Test COL.brow_color with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Couleur et comportement chromatique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for COL.highlight_color and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN"
+    ],
+    "develop": "Implement COL.highlight_color as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "couleur highlight",
+    "id": "COL.highlight_color",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "COL",
+    "test": "Test COL.highlight_color with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Couleur et comportement chromatique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  }
+]

@@ -1,0 +1,15 @@
+# Documentation migration map
+
+- `docs/components/eyes/blueprint/V1.4_EYE_VISIBILITY_CONTRACT.md` → `docs/components/eyes/blueprint/V1.4_EYE_VISIBILITY_CONTRACT.md` (42 source lines; 1 output part(s))
+- `docs/components/eyes/morphology/V1.4_MOR_CANTHUS_METRICS_CONTRACT.md` → `docs/components/eyes/morphology/V1.4_MOR_CANTHUS_METRICS_CONTRACT.md` (116 source lines; 1 output part(s))
+- `docs/components/eyes/morphology/V1.4_MOR_CANTHUS_RECONSTRUCTION_CONTRACT.md` → `docs/components/eyes/morphology/V1.4_MOR_CANTHUS_RECONSTRUCTION_CONTRACT.md` (80 source lines; 1 output part(s))
+- `docs/components/eyes/morphology/V1.4_MOR_CONTINUITY_CONTRACT.md` → `docs/components/eyes/morphology/V1.4_MOR_CONTINUITY_CONTRACT.md` (78 source lines; 1 output part(s))
+- `docs/components/eyes/morphology/V1.4_MOR_ENVELOPE_METRICS_CONTRACT.md` → `docs/components/eyes/morphology/V1.4_MOR_ENVELOPE_METRICS_CONTRACT.md` (85 source lines; 1 output part(s))
+- `docs/components/eyes/morphology/V1.4_MOR_ORTHOGONALITY_CONTRACT.md` → `docs/components/eyes/morphology/V1.4_MOR_ORTHOGONALITY_CONTRACT.md` (55 source lines; 1 output part(s))
+- `docs/components/eyes/morphology/V1.4_MOR_REFERENCE_MATH_SPEC_PREANALYSIS__part_01.md` (split document; see adjacent parts) → `docs/components/eyes/morphology/V1.4_MOR_REFERENCE_MATH_SPEC_PREANALYSIS__part_01.md` (split document; see adjacent parts) (511 source lines; 4 output part(s))
+- `docs/history/misc/V1.4_PERFORMANCE_HISTORY_CONTRACT.md` → `docs/history/misc/V1.4_PERFORMANCE_HISTORY_CONTRACT.md` (40 source lines; 1 output part(s))
+- `docs/components/eyes/morphology/V1.5_MOR_CANTHUS_CURVATURE_PROFILE_CONTRACT.md` → `docs/components/eyes/morphology/V1.5_MOR_CANTHUS_CURVATURE_PROFILE_CONTRACT.md` (130 source lines; 1 output part(s))
+- `docs/components/eyes/morphology/V1.6_MOR_CANTHUS_ENDPOINT_TANGENT_PROFILE_CONTRACT__part_01.md` (split document; see adjacent parts) → `docs/components/eyes/morphology/V1.6_MOR_CANTHUS_ENDPOINT_TANGENT_PROFILE_CONTRACT__part_01.md` (split document; see adjacent parts) (161 source lines; 2 output part(s))
+- `docs/components/eyes/morphology/V1.7_MOR_CANTHUS_TERMINAL_TRANSFORM_CONTRACT__part_01.md` (split document; see adjacent parts) → `docs/components/eyes/morphology/V1.7_MOR_CANTHUS_TERMINAL_TRANSFORM_CONTRACT__part_01.md` (split document; see adjacent parts) (200 source lines; 2 output part(s))
+- `docs/components/eyes/reference/V1.8_REFERENCE_DIGITIZATION_OCULAR_TRANSFORM_CONTRACT__part_01.md` (split document; see adjacent parts) → `docs/components/eyes/reference/V1.8_REFERENCE_DIGITIZATION_OCULAR_TRANSFORM_CONTRACT__part_01.md` (split document; see adjacent parts) (234 source lines; 2 output part(s))
+- `docs/components/eyes/reference/V1.9_REFERENCE_PIXEL_ACQUISITION_OCULAR_CALIBRATION_CONTRACT.md` → `docs/components/eyes/reference/V1.9_REFERENCE_PIXEL_ACQUISITION_OCULAR_CALIBRATION_CONTRACT.md` (150 source lines; 1 output part(s))

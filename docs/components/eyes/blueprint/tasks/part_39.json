@@ -1,0 +1,138 @@
+[
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for RND.correction_loop and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "VAR",
+      "CAM"
+    ],
+    "develop": "Implement RND.correction_loop as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "boucle correction",
+    "id": "RND.correction_loop",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "RND",
+    "test": "Test RND.correction_loop with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Rendu, artefacts et validation visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for RND.approval_gate and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "VAR",
+      "CAM"
+    ],
+    "develop": "Implement RND.approval_gate as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "gate de validation",
+    "id": "RND.approval_gate",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "RND",
+    "test": "Test RND.approval_gate with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Rendu, artefacts et validation visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for RND.aesthetic_default and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "VAR",
+      "CAM"
+    ],
+    "develop": "Implement RND.aesthetic_default as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "validation esthétique par défaut",
+    "id": "RND.aesthetic_default",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "RND",
+    "test": "Test RND.aesthetic_default with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Rendu, artefacts et validation visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for RND.context_matrix and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "VAR",
+      "CAM"
+    ],
+    "develop": "Implement RND.context_matrix as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "matrice de contextes",
+    "id": "RND.context_matrix",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "RND",
+    "test": "Test RND.context_matrix with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Rendu, artefacts et validation visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for GEN.component_identity and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [],
+    "develop": "Implement GEN.component_identity as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "identité composant",
+    "id": "GEN.component_identity",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "GEN",
+    "test": "Test GEN.component_identity with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Contrats communs et infrastructure",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for GEN.morphology_contract and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [],
+    "develop": "Implement GEN.morphology_contract as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "contrat morphologie",
+    "id": "GEN.morphology_contract",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "GEN",
+    "test": "Test GEN.morphology_contract with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Contrats communs et infrastructure",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for GEN.geometry_contract and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [],
+    "develop": "Implement GEN.geometry_contract as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "contrat géométrie",
+    "id": "GEN.geometry_contract",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "GEN",
+    "test": "Test GEN.geometry_contract with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Contrats communs et infrastructure",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for GEN.transform_contract and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [],
+    "develop": "Implement GEN.transform_contract as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "contrat transformation",
+    "id": "GEN.transform_contract",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "GEN",
+    "test": "Test GEN.transform_contract with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Contrats communs et infrastructure",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  }
+]

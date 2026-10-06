@@ -1,0 +1,120 @@
+[
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for COL.color_provenance and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN"
+    ],
+    "develop": "Implement COL.color_provenance as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "provenance de couleur",
+    "id": "COL.color_provenance",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "COL",
+    "test": "Test COL.color_provenance with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Couleur et comportement chromatique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for COL.color_fingerprint_boundary and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN"
+    ],
+    "develop": "Implement COL.color_fingerprint_boundary as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "séparation couleur↔géométrie dans le cache",
+    "id": "COL.color_fingerprint_boundary",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "COL",
+    "test": "Test COL.color_fingerprint_boundary with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Couleur et comportement chromatique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for EXP.vocabulary and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "BRW",
+      "PUP",
+      "IRI",
+      "HIL"
+    ],
+    "develop": "Implement EXP.vocabulary as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "vocabulaire sémantique",
+    "id": "EXP.vocabulary",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "EXP",
+    "test": "Test EXP.vocabulary with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Expression oculaire",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for EXP.neutral_baseline and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "BRW",
+      "PUP",
+      "IRI",
+      "HIL"
+    ],
+    "develop": "Implement EXP.neutral_baseline as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "baseline neutre",
+    "id": "EXP.neutral_baseline",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "EXP",
+    "test": "Test EXP.neutral_baseline with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Expression oculaire",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for EXP.opening and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "BRW",
+      "PUP",
+      "IRI",
+      "HIL"
+    ],
+    "develop": "Implement EXP.opening as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "variation ouverture",
+    "id": "EXP.opening",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "EXP",
+    "test": "Test EXP.opening with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Expression oculaire",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for EXP.upper_lid and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "BRW",
+      "PUP",
+      "IRI",
+      "HIL"
+    ],
+    "develop": "Implement EXP.upper_lid as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "déformation lid supérieure",
+    "id": "EXP.upper_lid",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "EXP",
+    "test": "Test EXP.upper_lid with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Expression oculaire",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PUP.occlusion and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR",
+      "LID",
+      "IRI"
+    ],
+    "develop": "Implement PUP.occlusion as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "occlusion externe",
+    "id": "PUP.occlusion",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "PUP",
+    "test": "Test PUP.occlusion with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Pupille",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PUP.reflection_space and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR",
+      "LID",
+      "IRI"
+    ],
+    "develop": "Implement PUP.reflection_space as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "repère des highlights",
+    "id": "PUP.reflection_space",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "PUP",
+    "test": "Test PUP.reflection_space with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Pupille",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PUP.outline and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR",
+      "LID",
+      "IRI"
+    ],
+    "develop": "Implement PUP.outline as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "contour propre de pupille",
+    "id": "PUP.outline",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "PUP",
+    "test": "Test PUP.outline with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Pupille",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PUP.opacity and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR",
+      "LID",
+      "IRI"
+    ],
+    "develop": "Implement PUP.opacity as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "opacité",
+    "id": "PUP.opacity",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "PUP",
+    "test": "Test PUP.opacity with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Pupille",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PUP.style and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR",
+      "LID",
+      "IRI"
+    ],
+    "develop": "Implement PUP.style as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "variation par style",
+    "id": "PUP.style",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "PUP",
+    "test": "Test PUP.style with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Pupille",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PUP.expression and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR",
+      "LID",
+      "IRI"
+    ],
+    "develop": "Implement PUP.expression as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "modulation par expression",
+    "id": "PUP.expression",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "PUP",
+    "test": "Test PUP.expression with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Pupille",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PUP.light and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR",
+      "LID",
+      "IRI"
+    ],
+    "develop": "Implement PUP.light as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "réponse à la lumière",
+    "id": "PUP.light",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "PUP",
+    "test": "Test PUP.light with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Pupille",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "component_id": "CMP-FACE-EAR-COMPOSITE",
+  "ids": [
+    "CMP",
+    "FILE",
+    "CON",
+    "INV",
+    "TST",
+    "ADV",
+    "REL",
+    "DEC",
+    "ERR",
+    "IMP",
+    "EVD"
+  ],
+  "source_line_ranges": {
+    "src/visual_engine/components/face/ear_composite.py": "1-87",
+    "src/visual_engine/components/face/production_registry.py": "8-18",
+    "src/visual_engine/runtime/production_slice.py": "98-172",
+    "tests/unit/test_v156_production_ear.py": "1-144"
+  },
+  "status": "CERTIFIED",
+  "version": "V1.56"
+}

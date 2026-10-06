@@ -1,0 +1,110 @@
+{
+  "component_id": "CMP-EYE-GAZE",
+  "version": "V1.89",
+  "status": "CERTIFIED",
+  "owner": "src/visual_engine/components/face/eyes/gaze/solver.py:45-80",
+  "stable_ids": {
+    "files": [
+      "FILE-GAZE-001",
+      "FILE-GAZE-002"
+    ],
+    "contracts": [
+      "CON-GAZE-001",
+      "CON-GAZE-002",
+      "CON-GAZE-003",
+      "CON-GAZE-004",
+      "CON-GAZE-005",
+      "CON-GAZE-006",
+      "CON-GAZE-007"
+    ],
+    "invariants": [
+      "INV-GAZE-001",
+      "INV-GAZE-002",
+      "INV-GAZE-003",
+      "INV-GAZE-004",
+      "INV-GAZE-005",
+      "INV-GAZE-006",
+      "INV-GAZE-007"
+    ],
+    "tests": [
+      "TST-GAZE-001",
+      "TST-GAZE-002",
+      "TST-GAZE-003",
+      "TST-GAZE-004",
+      "TST-GAZE-005",
+      "TST-GAZE-006"
+    ],
+    "adversarial": [
+      "ADV-GAZE-001",
+      "ADV-GAZE-002",
+      "ADV-GAZE-003",
+      "ADV-GAZE-004",
+      "ADV-GAZE-005",
+      "ADV-GAZE-006",
+      "ADV-GAZE-007",
+      "ADV-GAZE-008",
+      "ADV-GAZE-009",
+      "ADV-GAZE-010"
+    ],
+    "relations": [
+      "REL-GAZE-001",
+      "REL-GAZE-002",
+      "REL-GAZE-003",
+      "REL-GAZE-004",
+      "REL-GAZE-005",
+      "REL-GAZE-006",
+      "REL-GAZE-007",
+      "REL-GAZE-008"
+    ],
+    "decisions": [
+      "DEC-GAZE-001",
+      "DEC-GAZE-002",
+      "DEC-GAZE-003",
+      "DEC-GAZE-004",
+      "DEC-GAZE-005",
+      "DEC-GAZE-006"
+    ],
+    "errors": [
+      "ERR-GAZE-001",
+      "ERR-GAZE-002",
+      "ERR-GAZE-003",
+      "ERR-GAZE-004"
+    ],
+    "impacts": [
+      "IMP-GAZE-001",
+      "IMP-GAZE-002",
+      "IMP-GAZE-003",
+      "IMP-GAZE-004",
+      "IMP-GAZE-005",
+      "IMP-GAZE-006",
+      "IMP-GAZE-007",
+      "IMP-GAZE-008",
+      "IMP-GAZE-009",
+      "IMP-GAZE-010",
+      "IMP-GAZE-011",
+      "IMP-GAZE-012"
+    ],
+    "evidence": [
+      "EVD-GAZE-001",
+      "EVD-GAZE-002",
+      "EVD-GAZE-003",
+      "EVD-GAZE-004",
+      "EVD-GAZE-005",
+      "EVD-GAZE-006",
+      "EVD-GAZE-007",
+      "EVD-GAZE-008",
+      "EVD-GAZE-009",
+      "EVD-GAZE-010",
+      "EVD-GAZE-011",
+      "EVD-GAZE-012"
+    ]
+  },
+  "scope": "Gaze authored-input boundary hardening only",
+  "non_claims": [
+    "artistic_quality",
+    "optical_physics",
+    "new_3d_gaze",
+    "new_prompt_semantics",
+    "live_postgresql"
+  ]
+}

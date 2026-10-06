@@ -1,0 +1,21 @@
+{
+  "component": "CMP-FACE-EYE-BILATERAL",
+  "version": "V1.91",
+  "status": "CERTIFIED_BOUNDED_SCOPE",
+  "owner": "src/visual_engine/components/face/eyes/generator.py:156-171",
+  "runtime_files": [
+    "src/visual_engine/components/face/eyes/generator.py",
+    "src/visual_engine/components/face/generators.py"
+  ],
+  "ids": {
+    "contracts": ["CON-FEB-001", "CON-FEB-002", "CON-FEB-003", "CON-FEB-004", "CON-FEB-005", "CON-FEB-006"],
+    "invariants": ["INV-FEB-001", "INV-FEB-002", "INV-FEB-003", "INV-FEB-004", "INV-FEB-005", "INV-FEB-006"],
+    "tests": ["TST-FEB-001", "TST-FEB-002", "TST-FEB-003", "TST-FEB-004", "TST-FEB-005"],
+    "adversarial": ["ADV-FEB-001", "ADV-FEB-002", "ADV-FEB-003", "ADV-FEB-004"],
+    "relations": ["REL-FEB-001", "REL-FEB-002", "REL-FEB-003", "REL-FEB-004", "REL-FEB-005", "REL-FEB-006"],
+    "decisions": ["DEC-FEB-001", "DEC-FEB-002", "DEC-FEB-003", "DEC-FEB-004"],
+    "errors": ["ERR-FEB-001", "ERR-FEB-002", "ERR-FEB-003"],
+    "impacts": ["IMP-FEB-001", "IMP-FEB-002", "IMP-FEB-003", "IMP-FEB-004", "IMP-FEB-005", "IMP-FEB-006", "IMP-FEB-007", "IMP-FEB-008", "IMP-FEB-009", "IMP-FEB-010"],
+    "evidence": ["EVD-FEB-001", "EVD-FEB-002", "EVD-FEB-003", "EVD-FEB-004", "EVD-FEB-005", "EVD-FEB-006", "EVD-FEB-007", "EVD-FEB-008", "EVD-FEB-009", "EVD-FEB-010"]
+  }
+}

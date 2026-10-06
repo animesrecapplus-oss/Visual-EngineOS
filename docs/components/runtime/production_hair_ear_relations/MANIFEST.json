@@ -1,0 +1,80 @@
+{
+  "component_id": "CMP-RUNTIME-PRODUCTION-HAIR-EAR-RELATIONS",
+  "version": "V1.63",
+  "status": "CERTIFIED",
+  "owner": "src/visual_engine/runtime/production_hair_ear_relations.py:20-59",
+  "files": {
+    "source": "src/visual_engine/runtime/production_hair_ear_relations.py:1-59",
+    "consumer": "src/visual_engine/runtime/production_face_render.py:88-91",
+    "public_api": "src/visual_engine/runtime/__init__.py:254-260",
+    "tests": "tests/unit/test_v163_production_hair_ear_relations.py:1-90"
+  },
+  "ids": {
+    "CMP": [
+      "CMP-RUNTIME-PRODUCTION-HAIR-EAR-RELATIONS"
+    ],
+    "FILE": [
+      "FILE-PHER-001",
+      "FILE-PHER-002",
+      "FILE-PHER-003",
+      "FILE-PHER-004"
+    ],
+    "CON": [
+      "CON-PHER-001",
+      "CON-PHER-002",
+      "CON-PHER-003",
+      "CON-PHER-004",
+      "CON-PHER-005",
+      "CON-PHER-006"
+    ],
+    "INV": [
+      "INV-PHER-001",
+      "INV-PHER-002",
+      "INV-PHER-003",
+      "INV-PHER-004",
+      "INV-PHER-005"
+    ],
+    "TST": [
+      "TST-PHER-001"
+    ],
+    "ADV": [
+      "ADV-PHER-001",
+      "ADV-PHER-002",
+      "ADV-PHER-003",
+      "ADV-PHER-004",
+      "ADV-PHER-005",
+      "ADV-PHER-006",
+      "ADV-PHER-007",
+      "ADV-PHER-008",
+      "ADV-PHER-009",
+      "ADV-PHER-010"
+    ],
+    "REL": [
+      "REL-PHER-001",
+      "REL-PHER-002",
+      "REL-PHER-003",
+      "REL-PHER-004",
+      "REL-PHER-005"
+    ],
+    "DEC": [
+      "DEC-PHER-001",
+      "DEC-PHER-002",
+      "DEC-PHER-003",
+      "DEC-PHER-004",
+      "DEC-PHER-005"
+    ],
+    "ERR": [
+      "ERR-PHER-001",
+      "ERR-PHER-002"
+    ],
+    "IMP": [
+      "IMP-PHER-001"
+    ],
+    "EVD": [
+      "EVD-PHER-001",
+      "EVD-PHER-002",
+      "EVD-PHER-003",
+      "EVD-PHER-004"
+    ]
+  }
+}

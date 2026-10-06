@@ -1,0 +1,86 @@
+{
+  "component_id": "CMP-RUNTIME-PRODUCTION-VISUAL-STYLES",
+  "status": "CERTIFIED",
+  "owner": "src/visual_engine/runtime/production_visual_styles.py:18-66",
+  "files": {
+    "source": "src/visual_engine/runtime/production_visual_styles.py:1-66",
+    "consumer": "src/visual_engine/runtime/production_face_render.py:78-81",
+    "public_api": "src/visual_engine/runtime/__init__.py:250,258",
+    "tests": "tests/unit/test_v161_production_visual_styles.py:1-126"
+  },
+  "ids": {
+    "CMP": [
+      "CMP-RUNTIME-PRODUCTION-VISUAL-STYLES"
+    ],
+    "FILE": [
+      "FILE-PVS-001",
+      "FILE-PVS-002",
+      "FILE-PVS-003",
+      "FILE-PVS-004"
+    ],
+    "CON": [
+      "CON-PVS-001",
+      "CON-PVS-002",
+      "CON-PVS-003",
+      "CON-PVS-004",
+      "CON-PVS-005",
+      "CON-PVS-006",
+      "CON-PVS-007"
+    ],
+    "INV": [
+      "INV-PVS-001",
+      "INV-PVS-002",
+      "INV-PVS-003",
+      "INV-PVS-004",
+      "INV-PVS-005",
+      "INV-PVS-006",
+      "INV-PVS-007"
+    ],
+    "TST": [
+      "TST-PVS-001"
+    ],
+    "ADV": [
+      "ADV-PVS-001",
+      "ADV-PVS-002",
+      "ADV-PVS-003",
+      "ADV-PVS-004",
+      "ADV-PVS-005",
+      "ADV-PVS-006",
+      "ADV-PVS-007",
+      "ADV-PVS-008",
+      "ADV-PVS-009",
+      "ADV-PVS-010"
+    ],
+    "REL": [
+      "REL-PVS-001",
+      "REL-PVS-002",
+      "REL-PVS-003",
+      "REL-PVS-004",
+      "REL-PVS-005",
+      "REL-PVS-006"
+    ],
+    "DEC": [
+      "DEC-PVS-001",
+      "DEC-PVS-002",
+      "DEC-PVS-003",
+      "DEC-PVS-004",
+      "DEC-PVS-005",
+      "DEC-PVS-006"
+    ],
+    "ERR": [
+      "ERR-PVS-001",
+      "ERR-PVS-002"
+    ],
+    "IMP": [
+      "IMP-PVS-001"
+    ],
+    "EVD": [
+      "EVD-PVS-001",
+      "EVD-PVS-002",
+      "EVD-PVS-003",
+      "EVD-PVS-004",
+      "EVD-PVS-005",
+      "EVD-PVS-006"
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+[
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for RND.artifact_manifest and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "VAR",
+      "CAM"
+    ],
+    "develop": "Implement RND.artifact_manifest as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "manifest artefacts",
+    "id": "RND.artifact_manifest",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "RND",
+    "test": "Test RND.artifact_manifest with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Rendu, artefacts et validation visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for RND.pixel_metrics and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "VAR",
+      "CAM"
+    ],
+    "develop": "Implement RND.pixel_metrics as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "métriques visuelles",
+    "id": "RND.pixel_metrics",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "RND",
+    "test": "Test RND.pixel_metrics with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Rendu, artefacts et validation visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for RND.structural_metrics and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "VAR",
+      "CAM"
+    ],
+    "develop": "Implement RND.structural_metrics as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "métriques structurelles",
+    "id": "RND.structural_metrics",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "RND",
+    "test": "Test RND.structural_metrics with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Rendu, artefacts et validation visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for RND.visual_regression and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "VAR",
+      "CAM"
+    ],
+    "develop": "Implement RND.visual_regression as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "régression visuelle",
+    "id": "RND.visual_regression",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "RND",
+    "test": "Test RND.visual_regression with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Rendu, artefacts et validation visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for RND.golden_set and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "VAR",
+      "CAM"
+    ],
+    "develop": "Implement RND.golden_set as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "golden set",
+    "id": "RND.golden_set",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "RND",
+    "test": "Test RND.golden_set with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Rendu, artefacts et validation visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for RND.failure_triage and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "VAR",
+      "CAM"
+    ],
+    "develop": "Implement RND.failure_triage as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "triage",
+    "id": "RND.failure_triage",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "RND",
+    "test": "Test RND.failure_triage with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Rendu, artefacts et validation visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for RND.human_review and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "VAR",
+      "CAM"
+    ],
+    "develop": "Implement RND.human_review as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "revue humaine",
+    "id": "RND.human_review",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "RND",
+    "test": "Test RND.human_review with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Rendu, artefacts et validation visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  }
+]

@@ -1,0 +1,137 @@
+{
+  "component_id": "CMP-RUNTIME-GEOMETRY-TRANSFORM-RESOLUTION",
+  "ids": [
+    "CMP-GTR-001",
+    "FILE-GTR-001",
+    "CON-GTR-001",
+    "INV-GTR-001",
+    "TST-GTR-001",
+    "ADV-GTR-001",
+    "REL-GTR-001",
+    "DEC-GTR-001",
+    "ERR-GTR-001",
+    "IMP-GTR-001",
+    "EVD-GTR-001"
+  ],
+  "line_ranges": {
+    "ADVERSARIAL_TEST_MATRIX.md": {
+      "path": "docs/components/runtime/geometry_transform_resolution/ADVERSARIAL_TEST_MATRIX.md",
+      "range": "1-11"
+    },
+    "COMPONENT_TRUTH.md": {
+      "path": "docs/components/runtime/geometry_transform_resolution/COMPONENT_TRUTH.md",
+      "range": "1-17"
+    },
+    "CONTRACTS.md": {
+      "path": "docs/components/runtime/geometry_transform_resolution/CONTRACTS.md",
+      "range": "1-8"
+    },
+    "DECISIONS.md": {
+      "path": "docs/components/runtime/geometry_transform_resolution/DECISIONS.md",
+      "range": "1-7"
+    },
+    "DEPENDENCIES_AND_CONSUMERS.md": {
+      "path": "docs/components/runtime/geometry_transform_resolution/DEPENDENCIES_AND_CONSUMERS.md",
+      "range": "1-17"
+    },
+    "ERRORS.md": {
+      "path": "docs/components/runtime/geometry_transform_resolution/ERRORS.md",
+      "range": "1-10"
+    },
+    "EVIDENCE.md": {
+      "path": "docs/components/runtime/geometry_transform_resolution/EVIDENCE.md",
+      "range": "1-14"
+    },
+    "GUARANTEES_AND_STATUS.md": {
+      "path": "docs/components/runtime/geometry_transform_resolution/GUARANTEES_AND_STATUS.md",
+      "range": "1-10"
+    },
+    "IMPACT_MAP.md": {
+      "path": "docs/components/runtime/geometry_transform_resolution/IMPACT_MAP.md",
+      "range": "1-10"
+    },
+    "INDEX.md": {
+      "path": "docs/components/runtime/geometry_transform_resolution/INDEX.md",
+      "range": "1-7"
+    },
+    "INVARIANTS_AND_ASSUMPTIONS.md": {
+      "path": "docs/components/runtime/geometry_transform_resolution/INVARIANTS_AND_ASSUMPTIONS.md",
+      "range": "1-10"
+    },
+    "MANIFEST.json": {
+      "path": "docs/components/runtime/geometry_transform_resolution/MANIFEST.json",
+      "range": "1-137"
+    },
+    "PRECHANGE_IMPACT_AUDIT.md": {
+      "path": "docs/components/runtime/geometry_transform_resolution/PRECHANGE_IMPACT_AUDIT.md",
+      "range": "1-36"
+    },
+    "RELATIONS.md": {
+      "path": "docs/components/runtime/geometry_transform_resolution/RELATIONS.md",
+      "range": "1-8"
+    },
+    "ROADMAP.md": {
+      "path": "docs/components/runtime/geometry_transform_resolution/ROADMAP.md",
+      "range": "1-11"
+    },
+    "TEST_STATUS.md": {
+      "path": "docs/components/runtime/geometry_transform_resolution/TEST_STATUS.md",
+      "range": "1-13"
+    },
+    "audit.py": {
+      "path": "tools/audit_v173_geometry_transform_resolution.py",
+      "range": "1-79"
+    },
+    "benchmark.py": {
+      "path": "tools/benchmark_v173_geometry_transform_resolution.py",
+      "range": "1-12"
+    },
+    "geometry_transform.py": {
+      "path": "src/visual_engine/runtime/geometry_transform.py",
+      "range": "1-48"
+    },
+    "geometry_transform_resolution.py": {
+      "path": "src/visual_engine/runtime/geometry_transform_resolution.py",
+      "range": "1-111"
+    },
+    "line_audit.py": {
+      "path": "tools/audit_v173_line_ranges.py",
+      "range": "1-12"
+    },
+    "test_truth.py": {
+      "path": "tests/components/runtime/geometry_transform_resolution/test_v173_geometry_transform_resolution_truth.py",
+      "range": "1-50"
+    },
+    "validate_truth.py": {
+      "path": "tools/validate_v173_geometry_transform_resolution_truth.py",
+      "range": "1-24"
+    },
+    "visual_qa.py": {
+      "path": "tools/visual_qa_v173_geometry_transform_resolution.py",
+      "range": "1-22"
+    }
+  },
+  "source_files": [
+    {
+      "consumers": [
+        "geometry_transform facade",
+        "eyes reference transform",
+        "runtime public surface"
+      ],
+      "id": "FILE-GTR-001",
+      "path": "src/visual_engine/runtime/geometry_transform_resolution.py",
+      "responsibility": "transform-resolution owner"
+    },
+    {
+      "consumers": [
+        "production face render",
+        "region maps",
+        "eyes reference transform",
+        "public runtime API"
+      ],
+      "path": "src/visual_engine/runtime/geometry_transform.py",
+      "responsibility": "GeometryContract frame transformation and compatibility facade"
+    }
+  ],
+  "status": "CERTIFIED"
+}

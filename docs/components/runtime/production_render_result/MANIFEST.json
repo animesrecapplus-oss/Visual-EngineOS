@@ -1,0 +1,157 @@
+{
+  "candidate_correction": {
+    "description": "resolve_component_contract extraction rejected after compatibility graph exposed a new cycle",
+    "id": "ERR-V170-CAND-001",
+    "status": "REVERTED"
+  },
+  "component_id": "CMP-RUNTIME-PRODUCTION-RENDER-RESULT",
+  "ids": [
+    "CMP-PRR-001",
+    "FILE-PRR-001",
+    "CON-PRR-001",
+    "INV-PRR-001",
+    "TST-PRR-001",
+    "ADV-PRR-001",
+    "REL-PRR-001",
+    "DEC-PRR-001",
+    "ERR-PRR-001",
+    "IMP-PRR-001",
+    "EVD-PRR-001"
+  ],
+  "line_ranges": {
+    "ADVERSARIAL_TEST_MATRIX.md": {
+      "path": "docs/components/runtime/production_render_result/ADVERSARIAL_TEST_MATRIX.md",
+      "range": "1-11"
+    },
+    "COMPONENT_TRUTH.md": {
+      "path": "docs/components/runtime/production_render_result/COMPONENT_TRUTH.md",
+      "range": "1-17"
+    },
+    "CONTRACTS.md": {
+      "path": "docs/components/runtime/production_render_result/CONTRACTS.md",
+      "range": "1-11"
+    },
+    "DECISIONS.md": {
+      "path": "docs/components/runtime/production_render_result/DECISIONS.md",
+      "range": "1-12"
+    },
+    "DEPENDENCIES_AND_CONSUMERS.md": {
+      "path": "docs/components/runtime/production_render_result/DEPENDENCIES_AND_CONSUMERS.md",
+      "range": "1-17"
+    },
+    "ERRORS.md": {
+      "path": "docs/components/runtime/production_render_result/ERRORS.md",
+      "range": "1-8"
+    },
+    "EVIDENCE.md": {
+      "path": "docs/components/runtime/production_render_result/EVIDENCE.md",
+      "range": "1-10"
+    },
+    "GUARANTEES_AND_STATUS.md": {
+      "path": "docs/components/runtime/production_render_result/GUARANTEES_AND_STATUS.md",
+      "range": "1-10"
+    },
+    "IMPACT_MAP.md": {
+      "path": "docs/components/runtime/production_render_result/IMPACT_MAP.md",
+      "range": "1-11"
+    },
+    "INDEX.md": {
+      "path": "docs/components/runtime/production_render_result/INDEX.md",
+      "range": "1-7"
+    },
+    "INVARIANTS_AND_ASSUMPTIONS.md": {
+      "path": "docs/components/runtime/production_render_result/INVARIANTS_AND_ASSUMPTIONS.md",
+      "range": "1-9"
+    },
+    "PRECHANGE_IMPACT_AUDIT.md": {
+      "path": "docs/components/runtime/production_render_result/PRECHANGE_IMPACT_AUDIT.md",
+      "range": "1-42"
+    },
+    "RELATIONS.md": {
+      "path": "docs/components/runtime/production_render_result/RELATIONS.md",
+      "range": "1-9"
+    },
+    "ROADMAP.md": {
+      "path": "docs/components/runtime/production_render_result/ROADMAP.md",
+      "range": "1-10"
+    },
+    "TEST_STATUS.md": {
+      "path": "docs/components/runtime/production_render_result/TEST_STATUS.md",
+      "range": "1-13"
+    },
+    "compatibility_import": {
+      "path": "src/visual_engine/runtime/production_slice.py",
+      "range": "6-6"
+    },
+    "focused_tests": {
+      "path": "tests/components/runtime/production_render_result/test_v170_production_render_result_truth.py",
+      "range": "1-37"
+    },
+    "owner_source": {
+      "path": "src/visual_engine/runtime/production_render_result.py",
+      "range": "13-25"
+    },
+    "producer_construction": {
+      "path": "src/visual_engine/runtime/production_face_render.py",
+      "range": "95-95"
+    },
+    "producer_contract": {
+      "path": "src/visual_engine/runtime/production_face_render.py",
+      "range": "38-51"
+    },
+    "producer_import": {
+      "path": "src/visual_engine/runtime/production_face_render.py",
+      "range": "30-30"
+    },
+    "public_export": {
+      "path": "src/visual_engine/runtime/__init__.py",
+      "range": "253-262"
+    }
+  },
+  "source_files": [
+    {
+      "assumptions": [
+        "producer keeps positional nine-field construction"
+      ],
+      "break_risks": [
+        "field order drift",
+        "compatibility identity drift",
+        "dependency cycle"
+      ],
+      "consumers": [
+        "production_face_render",
+        "production_slice",
+        "runtime public export",
+        "production result tests"
+      ],
+      "dependencies": [
+        "GeometryContract",
+        "GeometryGenerationResult",
+        "ProductionVisibilityResolution",
+        "ProductionHairEarOcclusion",
+        "ProductionHeadEarOcclusion",
+        "ResolvedComponent"
+      ],
+      "guarantees": [
+        "frozen",
+        "slots",
+        "field order preserved"
+      ],
+      "id": "FILE-PRR-001",
+      "invariants": [
+        "one canonical class owner",
+        "no semantic reconstruction"
+      ],
+      "path": "src/visual_engine/runtime/production_render_result.py",
+      "responsibility": "immutable ProductionRenderResult value contract",
+      "tests": [
+        "TST-PRR-001",
+        "ADV-PRR-001",
+        "ADV-PRR-002",
+        "ADV-PRR-003"
+      ]
+    }
+  ],
+  "status": "CERTIFIED",
+  "version": "V1.70"
+}

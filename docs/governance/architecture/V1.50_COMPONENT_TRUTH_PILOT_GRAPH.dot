@@ -1,0 +1,18 @@
+digraph pupil_truth { // EVD-EYE-PUPIL-004: architecture evidence graph for the pilot.
+  rankdir=LR; // EVD-EYE-PUPIL-004: show traceability left-to-right.
+  pupil [label="CMP-EYE-PUPIL\ncomponent truth"]; // EVD-EYE-PUPIL-004: pilot owner.
+  spec [label="FILE-PUPIL-SPEC\nPupilSpec"]; // EVD-EYE-PUPIL-004: specification owner.
+  effects [label="FILE-PUPIL-EFFECTS\noptical effects"]; // EVD-EYE-PUPIL-004: effect owner.
+  appearance [label="EyeAppearance\nreal consumer"]; // EVD-EYE-PUPIL-004: parent consumer.
+  generator [label="Eye generator\nreal consumer"]; // EVD-EYE-PUPIL-004: geometry consumer.
+  iris [label="REL-PUPIL-IRIS\ninteraction"]; // EVD-EYE-PUPIL-004: declared relation.
+  gaze [label="REL-PUPIL-GAZE\ninteraction"]; // EVD-EYE-PUPIL-004: declared relation.
+  eyelid [label="REL-PUPIL-EYELID\ninteraction"]; // EVD-EYE-PUPIL-004: declared relation.
+  spec -> pupil; // EVD-EYE-PUPIL-004: file belongs to component.
+  effects -> pupil; // EVD-EYE-PUPIL-004: file belongs to component.
+  pupil -> appearance; // EVD-EYE-PUPIL-004: real parent consumer.
+  pupil -> generator; // EVD-EYE-PUPIL-004: real downstream consumer.
+  pupil -> iris; // EVD-EYE-PUPIL-004: declared interaction boundary.
+  pupil -> gaze; // EVD-EYE-PUPIL-004: declared interaction boundary.
+  pupil -> eyelid; // EVD-EYE-PUPIL-004: declared interaction boundary.
+}

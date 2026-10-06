@@ -1,0 +1,134 @@
+[
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for BRW.style and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "MOR"
+    ],
+    "develop": "Implement BRW.style as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "style",
+    "id": "BRW.style",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "BRW",
+    "test": "Test BRW.style with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Sourcils",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for HIL.anchor and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "PUP",
+      "IRI",
+      "COL"
+    ],
+    "develop": "Implement HIL.anchor as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "ancrage",
+    "id": "HIL.anchor",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "HIL",
+    "test": "Test HIL.anchor with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Highlights et réflexion visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for HIL.shape and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "PUP",
+      "IRI",
+      "COL"
+    ],
+    "develop": "Implement HIL.shape as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "forme",
+    "id": "HIL.shape",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "HIL",
+    "test": "Test HIL.shape with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Highlights et réflexion visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for HIL.size and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "PUP",
+      "IRI",
+      "COL"
+    ],
+    "develop": "Implement HIL.size as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "taille",
+    "id": "HIL.size",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "HIL",
+    "test": "Test HIL.size with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Highlights et réflexion visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for HIL.count and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "PUP",
+      "IRI",
+      "COL"
+    ],
+    "develop": "Implement HIL.count as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "nombre",
+    "id": "HIL.count",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "HIL",
+    "test": "Test HIL.count with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Highlights et réflexion visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for HIL.position and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "PUP",
+      "IRI",
+      "COL"
+    ],
+    "develop": "Implement HIL.position as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "position",
+    "id": "HIL.position",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "HIL",
+    "test": "Test HIL.position with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Highlights et réflexion visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for HIL.rotation and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "PUP",
+      "IRI",
+      "COL"
+    ],
+    "develop": "Implement HIL.rotation as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "orientation",
+    "id": "HIL.rotation",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "HIL",
+    "test": "Test HIL.rotation with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Highlights et réflexion visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  }
+]

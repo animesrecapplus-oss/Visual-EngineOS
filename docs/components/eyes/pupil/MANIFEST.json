@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.2",
+  "component_id": "CMP-EYE-PUPIL",
+  "semantic_path": "face/eyes/pupil",
+  "parent": "CMP-EYE",
+  "status": "CERTIFIED",
+  "scope": "V1.82 PupilSpec local input-boundary hardening",
+  "source_line_ranges": ["src/visual_engine/components/face/eyes/pupil/spec.py:9-31"],
+  "test_line_ranges": ["tests/components/face/eyes/pupil/test_v182_pupil_input_hardening.py:1-30"],
+  "consumer_line_ranges": [
+    "src/visual_engine/components/face/eyes/appearance/spec.py:12,17-26",
+    "src/visual_engine/components/face/eyes/styles.py:9,31-32,63-64",
+    "src/visual_engine/components/face/eyes/generator.py:17,185-188,192-226",
+    "src/visual_engine/components/face/eyes/definitions.py:11",
+    "src/visual_engine/geometry/__init__.py:3-4,8-10"
+  ],
+  "contracts": ["CON-PUPIL-001","CON-PUPIL-002","CON-PUPIL-003","CON-PUPIL-004","CON-PUPIL-005"],
+  "invariants": ["INV-PUPIL-001","INV-PUPIL-002","INV-PUPIL-003","INV-PUPIL-004","INV-PUPIL-005","INV-PUPIL-006"],
+  "relations": ["REL-PUPIL-PARENT","REL-PUPIL-EFFECTS","REL-PUPIL-IRIS","REL-PUPIL-GAZE","REL-PUPIL-EYELID","REL-PUPIL-TRANSFORM","REL-PUPIL-RENDER","REL-PUPIL-LASH"],
+  "decisions": ["DEC-EYE-PUPIL-001","DEC-EYE-PUPIL-002","DEC-EYE-PUPIL-003","DEC-EYE-PUPIL-004","DEC-EYE-PUPIL-005","DEC-EYE-PUPIL-006"],
+  "errors": ["ERR-EYE-PUPIL-001","ERR-EYE-PUPIL-002","ERR-EYE-PUPIL-003","ERR-EYE-PUPIL-004"],
+  "evidence": ["EVD-EYE-PUPIL-001","EVD-EYE-PUPIL-002","EVD-EYE-PUPIL-003","EVD-EYE-PUPIL-004","EVD-EYE-PUPIL-005","EVD-EYE-PUPIL-006"]
+}

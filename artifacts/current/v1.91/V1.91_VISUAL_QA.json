@@ -1,0 +1,516 @@
+{
+  "anchors": {
+    "interaction_zoom": {
+      "baseline": {
+        "left_eye": {
+          "center": [
+            -0.28,
+            0.0,
+            0.0
+          ],
+          "inner_canthus": [
+            -0.39,
+            0.0,
+            0.0
+          ],
+          "iris_center": [
+            -0.28,
+            0.0,
+            0.0
+          ],
+          "outer_canthus": [
+            -0.17000000000000004,
+            0.0,
+            0.0
+          ],
+          "pupil_center": [
+            -0.28,
+            0.0,
+            0.0
+          ]
+        },
+        "right_eye": {
+          "center": [
+            0.28,
+            0.0,
+            0.0
+          ],
+          "inner_canthus": [
+            0.17000000000000004,
+            0.0,
+            0.0
+          ],
+          "iris_center": [
+            0.28,
+            0.0,
+            0.0
+          ],
+          "outer_canthus": [
+            0.39,
+            0.0,
+            0.0
+          ],
+          "pupil_center": [
+            0.28,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "current": {
+        "left_eye": {
+          "center": [
+            -0.28,
+            0.0,
+            0.0
+          ],
+          "inner_canthus": [
+            -0.17000000000000004,
+            0.0,
+            0.0
+          ],
+          "iris_center": [
+            -0.28,
+            0.0,
+            0.0
+          ],
+          "outer_canthus": [
+            -0.39,
+            0.0,
+            0.0
+          ],
+          "pupil_center": [
+            -0.28,
+            0.0,
+            0.0
+          ]
+        },
+        "right_eye": {
+          "center": [
+            0.28,
+            0.0,
+            0.0
+          ],
+          "inner_canthus": [
+            0.17000000000000004,
+            0.0,
+            0.0
+          ],
+          "iris_center": [
+            0.28,
+            0.0,
+            0.0
+          ],
+          "outer_canthus": [
+            0.39,
+            0.0,
+            0.0
+          ],
+          "pupil_center": [
+            0.28,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "normal": {
+      "baseline": {
+        "left_eye": {
+          "center": [
+            -0.28,
+            0.0,
+            0.0
+          ],
+          "inner_canthus": [
+            -0.39,
+            0.0,
+            0.0
+          ],
+          "iris_center": [
+            -0.28,
+            0.0,
+            0.0
+          ],
+          "outer_canthus": [
+            -0.17000000000000004,
+            0.0,
+            0.0
+          ],
+          "pupil_center": [
+            -0.28,
+            0.0,
+            0.0
+          ]
+        },
+        "right_eye": {
+          "center": [
+            0.28,
+            0.0,
+            0.0
+          ],
+          "inner_canthus": [
+            0.17000000000000004,
+            0.0,
+            0.0
+          ],
+          "iris_center": [
+            0.28,
+            0.0,
+            0.0
+          ],
+          "outer_canthus": [
+            0.39,
+            0.0,
+            0.0
+          ],
+          "pupil_center": [
+            0.28,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "current": {
+        "left_eye": {
+          "center": [
+            -0.28,
+            0.0,
+            0.0
+          ],
+          "inner_canthus": [
+            -0.17000000000000004,
+            0.0,
+            0.0
+          ],
+          "iris_center": [
+            -0.28,
+            0.0,
+            0.0
+          ],
+          "outer_canthus": [
+            -0.39,
+            0.0,
+            0.0
+          ],
+          "pupil_center": [
+            -0.28,
+            0.0,
+            0.0
+          ]
+        },
+        "right_eye": {
+          "center": [
+            0.28,
+            0.0,
+            0.0
+          ],
+          "inner_canthus": [
+            0.17000000000000004,
+            0.0,
+            0.0
+          ],
+          "iris_center": [
+            0.28,
+            0.0,
+            0.0
+          ],
+          "outer_canthus": [
+            0.39,
+            0.0,
+            0.0
+          ],
+          "pupil_center": [
+            0.28,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "rotation_minus30": {
+      "baseline": {
+        "left_eye": {
+          "center": [
+            -0.28,
+            0.0,
+            0.0
+          ],
+          "inner_canthus": [
+            -0.39,
+            0.0,
+            0.0
+          ],
+          "iris_center": [
+            -0.28,
+            0.0,
+            0.0
+          ],
+          "outer_canthus": [
+            -0.17000000000000004,
+            0.0,
+            0.0
+          ],
+          "pupil_center": [
+            -0.28,
+            0.0,
+            0.0
+          ]
+        },
+        "right_eye": {
+          "center": [
+            0.28,
+            0.0,
+            0.0
+          ],
+          "inner_canthus": [
+            0.17000000000000004,
+            0.0,
+            0.0
+          ],
+          "iris_center": [
+            0.28,
+            0.0,
+            0.0
+          ],
+          "outer_canthus": [
+            0.39,
+            0.0,
+            0.0
+          ],
+          "pupil_center": [
+            0.28,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "current": {
+        "left_eye": {
+          "center": [
+            -0.28,
+            0.0,
+            0.0
+          ],
+          "inner_canthus": [
+            -0.17000000000000004,
+            0.0,
+            0.0
+          ],
+          "iris_center": [
+            -0.28,
+            0.0,
+            0.0
+          ],
+          "outer_canthus": [
+            -0.39,
+            0.0,
+            0.0
+          ],
+          "pupil_center": [
+            -0.28,
+            0.0,
+            0.0
+          ]
+        },
+        "right_eye": {
+          "center": [
+            0.28,
+            0.0,
+            0.0
+          ],
+          "inner_canthus": [
+            0.17000000000000004,
+            0.0,
+            0.0
+          ],
+          "iris_center": [
+            0.28,
+            0.0,
+            0.0
+          ],
+          "outer_canthus": [
+            0.39,
+            0.0,
+            0.0
+          ],
+          "pupil_center": [
+            0.28,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    "rotation_plus30": {
+      "baseline": {
+        "left_eye": {
+          "center": [
+            -0.28,
+            0.0,
+            0.0
+          ],
+          "inner_canthus": [
+            -0.39,
+            0.0,
+            0.0
+          ],
+          "iris_center": [
+            -0.28,
+            0.0,
+            0.0
+          ],
+          "outer_canthus": [
+            -0.17000000000000004,
+            0.0,
+            0.0
+          ],
+          "pupil_center": [
+            -0.28,
+            0.0,
+            0.0
+          ]
+        },
+        "right_eye": {
+          "center": [
+            0.28,
+            0.0,
+            0.0
+          ],
+          "inner_canthus": [
+            0.17000000000000004,
+            0.0,
+            0.0
+          ],
+          "iris_center": [
+            0.28,
+            0.0,
+            0.0
+          ],
+          "outer_canthus": [
+            0.39,
+            0.0,
+            0.0
+          ],
+          "pupil_center": [
+            0.28,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "current": {
+        "left_eye": {
+          "center": [
+            -0.28,
+            0.0,
+            0.0
+          ],
+          "inner_canthus": [
+            -0.17000000000000004,
+            0.0,
+            0.0
+          ],
+          "iris_center": [
+            -0.28,
+            0.0,
+            0.0
+          ],
+          "outer_canthus": [
+            -0.39,
+            0.0,
+            0.0
+          ],
+          "pupil_center": [
+            -0.28,
+            0.0,
+            0.0
+          ]
+        },
+        "right_eye": {
+          "center": [
+            0.28,
+            0.0,
+            0.0
+          ],
+          "inner_canthus": [
+            0.17000000000000004,
+            0.0,
+            0.0
+          ],
+          "iris_center": [
+            0.28,
+            0.0,
+            0.0
+          ],
+          "outer_canthus": [
+            0.39,
+            0.0,
+            0.0
+          ],
+          "pupil_center": [
+            0.28,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    }
+  },
+  "baseline": "V1.89",
+  "cases": [
+    "normal",
+    "rotation_plus30",
+    "rotation_minus30",
+    "interaction_zoom"
+  ],
+  "current": "V1.91",
+  "expected": {
+    "camera_head_gaze_channels": "unchanged",
+    "left_eye": "bilateral side identity changes from single-frame to image_left in HumanFace production",
+    "non_eye": "unchanged",
+    "right_eye": "unchanged image_right behavior"
+  },
+  "owner_hash_comparison": {
+    "interaction_zoom": {
+      "left_eye": false,
+      "right_eye": true
+    },
+    "normal": {
+      "left_eye": false,
+      "right_eye": true
+    },
+    "rotation_minus30": {
+      "left_eye": false,
+      "right_eye": true
+    },
+    "rotation_plus30": {
+      "left_eye": false,
+      "right_eye": true
+    }
+  },
+  "pipeline": "PROMPT\u2192PARAMETERS\u2192PROVENANCE\u2192PERSISTENCE\u2192RESOLUTION\u2192CODE\u2192EXECUTION\u2192FRAME/IMAGE\u2192INSPECTION\u2192DIAGNOSIS\u2192CORRECTION\u2192TEST\u2192NEW EXECUTION",
+  "status": "PASS",
+  "svg_sha256": {
+    "interaction_zoom": {
+      "baseline": "ba0a0c12691eb49749b52db9b6abca46408a31b72111b5a5b18ac19b53060f4e",
+      "changed": true,
+      "current": "b8bb68194d4c6644a28afb95da46fbb7c3260f79418faf7abe2ed5f4a53b2ca7"
+    },
+    "normal": {
+      "baseline": "379a3ae4da1a1049cda39c245738bd3c55f75c4766a716f7c9a0724ba7df10a8",
+      "changed": true,
+      "current": "dd204abee635b226504f77a3c7032babb8bfcf5af7ead418248bc6f6312a0359"
+    },
+    "rotation_minus30": {
+      "baseline": "4d3261618e2ef74f0f3636056f308fd05076f407296578f902380a1d72af17b8",
+      "changed": true,
+      "current": "505676c6b269cd6805cfb3422befa03abc332adb1632b706c332787f97f38258"
+    },
+    "rotation_plus30": {
+      "baseline": "4bf4bf18b255ad3e80538b8a9af3133c02ced6a9111c811a8422995021573c1f",
+      "changed": true,
+      "current": "d9168825d833607735673572f93edcc5181ad8904e3247edd476fac10449ed1c"
+    }
+  }
+}

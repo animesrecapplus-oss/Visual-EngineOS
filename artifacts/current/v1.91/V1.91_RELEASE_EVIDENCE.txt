@@ -1,0 +1,38 @@
+Visual Engine V1.91 — CMP-FACE-EYE-BILATERAL bounded certification evidence
+
+Baseline:
+V1.89 certified checkpoint reopened before modification.
+
+Runtime change:
+1. `src/visual_engine/components/face/eyes/generator.py`
+   - HumanFace child identity `left_eye` -> `image_left`
+   - HumanFace child identity `right_eye` -> `image_right`
+   - standalone/other Eye -> `single`
+   - generator version 9 -> 10
+2. `src/visual_engine/components/face/generators.py`
+   - removed unused `_eye_component_inputs` duplicate boundary.
+
+No Gaze, renderer, COLOR, DB migration, persistence schema or public export change.
+
+Fresh current validation:
+- 470 tests in `tests/components` + `tests/integration`: PASS, 1 expected PostgreSQL skip, 0 failed.
+- 75 affected ocular/face unit tests: PASS.
+- 139 affected production unit tests: PASS.
+- 678 unique fresh current tests executed across the directly affected regression surfaces (the V1.91 file is included in two unit-scope lists and counted once).
+- compileall: PASS.
+- dependency graph: 209 modules / 567 edges / 3 pre-existing SCCs / 0 new / 0 duplicate groups.
+- database migrations: 8 unchanged.
+- cache identity: PASS; side already participates in `_eye_cache_inputs`.
+- visual QA: 4 normal/boundary/interaction production cases; PNGs produced and inspected; right-eye owner hashes unchanged; left-eye owner hashes changed as intended.
+- input-boundary diagnostic benchmark: +6.10% median versus V1.89; no optimization introduced.
+
+Certification limitation:
+The complete current 1554-test monolithic suite was attempted but exceeded the available wall-clock limit before completion.
+Therefore this release is `CERTIFIED_BOUNDED_SCOPE`, not a claim of complete-current-suite PASS.
+V1.89's 1549-test regression result is retained only as historical baseline evidence.
+
+Artifact policy:
+Only `artifacts/current/v1.91/` is retained for the current release. Transient Python artifacts are purged before final packaging.
+
+Git:
+NOT_APPLICABLE — the project is not a Git repository.

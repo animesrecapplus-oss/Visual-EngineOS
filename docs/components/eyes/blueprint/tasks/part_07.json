@@ -1,0 +1,128 @@
+[
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for IRI.fibres and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR",
+      "PUP"
+    ],
+    "develop": "Implement IRI.fibres as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "fibres radiales",
+    "id": "IRI.fibres",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "IRI",
+    "test": "Test IRI.fibres with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Iris",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for IRI.radial_structure and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR",
+      "PUP"
+    ],
+    "develop": "Implement IRI.radial_structure as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "structure radiale",
+    "id": "IRI.radial_structure",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "IRI",
+    "test": "Test IRI.radial_structure with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Iris",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for IRI.pigmentation and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR",
+      "PUP"
+    ],
+    "develop": "Implement IRI.pigmentation as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "pigmentation",
+    "id": "IRI.pigmentation",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "IRI",
+    "test": "Test IRI.pigmentation with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Iris",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for IRI.rings and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR",
+      "PUP"
+    ],
+    "develop": "Implement IRI.rings as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "anneaux concentriques",
+    "id": "IRI.rings",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "IRI",
+    "test": "Test IRI.rings with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Iris",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for IRI.microstructure and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR",
+      "PUP"
+    ],
+    "develop": "Implement IRI.microstructure as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "microstructure multi-échelle",
+    "id": "IRI.microstructure",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "IRI",
+    "test": "Test IRI.microstructure with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Iris",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for IRI.variation and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR",
+      "PUP"
+    ],
+    "develop": "Implement IRI.variation as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "variation intra-iris",
+    "id": "IRI.variation",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "IRI",
+    "test": "Test IRI.variation with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Iris",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for IRI.asymmetry and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "MOR",
+      "PUP"
+    ],
+    "develop": "Implement IRI.asymmetry as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "asymétrie bilatérale",
+    "id": "IRI.asymmetry",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "IRI",
+    "test": "Test IRI.asymmetry with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Iris",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  }
+]

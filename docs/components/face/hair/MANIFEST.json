@@ -1,0 +1,68 @@
+{
+  "component_id": "CMP-FACE-HAIR",
+  "version": "V1.58",
+  "status": "CERTIFIED",
+  "ids": [
+    "CMP-FH-001",
+    "FILE-FH-001",
+    "CON-FH-001",
+    "INV-FH-001",
+    "TST-FH-001",
+    "ADV-FH-001",
+    "REL-FH-001",
+    "DEC-FH-001",
+    "ERR-FH-001",
+    "IMP-FH-001",
+    "EVD-FH-001"
+  ],
+  "source_files": [
+    {
+      "id": "FILE-FH-001",
+      "path": "src/visual_engine/components/face/hair.py",
+      "lines": "1-61",
+      "responsibility": "Hair leaf geometry",
+      "consumers": [
+        "src/visual_engine/components/face/production_registry.py:10",
+        "src/visual_engine/components/face/hair_composite.py:31-49",
+        "tests/unit/test_v157_production_hair.py:1-124",
+        "tests/unit/test_v158_hair_ear_occlusion.py:21-95"
+      ],
+      "dependencies": [
+        "GeometryContract",
+        "Component",
+        "RegisteredGeometryGenerator"
+      ],
+      "guarantees": [
+        "finite closed cap",
+        "authored Hair depth_layer=1"
+      ],
+      "assumptions": [
+        "cap is sufficient for V1.57"
+      ],
+      "invariants": [
+        "INV-FH-001",
+        "INV-FH-003",
+        "INV-HD-002"
+      ],
+      "tests": [
+        "tests/unit/test_v157_production_hair.py:1-124",
+        "tests/unit/test_v158_hair_ear_occlusion.py:21-95"
+      ],
+      "break_risks": [
+        "parameter contract changes"
+      ]
+    }
+  ],
+  "consumer_line_ranges": {
+    "src/visual_engine/components/face/hair_composite.py": "31-49",
+    "src/visual_engine/components/face/production_registry.py": "10,21",
+    "src/visual_engine/runtime/production_hair_ear_occlusion.py": "57-77",
+    "src/visual_engine/render/geometry_svg.py": "176-212"
+  },
+  "affected_ranges": {
+    "src/visual_engine/entities/face.py": "4-74",
+    "src/visual_engine/render/geometry_svg.py": "45-63,197-211",
+    "src/visual_engine/components/face/hair.py": "42-60"
+  },
+  "visual_evidence": "artifacts/current/v1.63/V1.63_HAIR_EAR_RELATIONS_EXTRACTION_QA_BOARD.png"
+}

@@ -1,0 +1,22 @@
+{
+  "component_id": "CMP-FACE-MOUTH",
+  "semantic_path": "components/face/mouth",
+  "version": "V1.81",
+  "status": "CERTIFIED",
+  "canonical_geometry_owner": "src/visual_engine/components/face/mouth.py:15-59",
+  "generator_registration_owner": "src/visual_engine/components/face/mouth.py:62-69",
+  "composite_owner": "src/visual_engine/components/face/mouth_composite.py:22-82",
+  "production_registry_owner": "src/visual_engine/components/face/production_registry.py:10-14",
+  "consumer_line_ranges": [
+    "src/visual_engine/entities/face.py:29-34",
+    "src/visual_engine/runtime/production_slice.py:98-142",
+    "src/visual_engine/components/face/production_registry.py:10-14"
+  ],
+  "source_line_ranges": ["src/visual_engine/components/face/mouth.py:15-27", "src/visual_engine/components/face/mouth.py:30-59"],
+  "test_line_ranges": ["tests/components/face/mouth/test_mouth_contract.py:11-38", "tests/components/face/mouth/test_v181_mouth_input_hardening.py:1-45"],
+  "visual_scope": "VALID_OUTPUT_INVARIANCE",
+  "persistence_schema_change": false,
+  "color_semantic_change": false,
+  "new_scc": false,
+  "exact_duplicate_groups": 0
+}

@@ -1,0 +1,137 @@
+[
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for EXP.blend and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "BRW",
+      "PUP",
+      "IRI",
+      "HIL"
+    ],
+    "develop": "Implement EXP.blend as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "composition de plusieurs intents",
+    "id": "EXP.blend",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "EXP",
+    "test": "Test EXP.blend with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Expression oculaire",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for EXP.conflict_resolution and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "BRW",
+      "PUP",
+      "IRI",
+      "HIL"
+    ],
+    "develop": "Implement EXP.conflict_resolution as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "résolution des conflits",
+    "id": "EXP.conflict_resolution",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "EXP",
+    "test": "Test EXP.conflict_resolution with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Expression oculaire",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for EXP.temporal and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "BRW",
+      "PUP",
+      "IRI",
+      "HIL"
+    ],
+    "develop": "Implement EXP.temporal as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "transition temporelle future",
+    "id": "EXP.temporal",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "EXP",
+    "test": "Test EXP.temporal with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Expression oculaire",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for CAM.shot_scale and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR"
+    ],
+    "develop": "Implement CAM.shot_scale as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "shot scale",
+    "id": "CAM.shot_scale",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "CAM",
+    "test": "Test CAM.shot_scale with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Caméra et rendu des yeux",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for CAM.frame_transform and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR"
+    ],
+    "develop": "Implement CAM.frame_transform as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "transformation frame",
+    "id": "CAM.frame_transform",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "CAM",
+    "test": "Test CAM.frame_transform with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Caméra et rendu des yeux",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for CAM.rotation and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR"
+    ],
+    "develop": "Implement CAM.rotation as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "rotation caméra",
+    "id": "CAM.rotation",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "CAM",
+    "test": "Test CAM.rotation with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Caméra et rendu des yeux",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for CAM.scale and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR"
+    ],
+    "develop": "Implement CAM.scale as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "échelle caméra",
+    "id": "CAM.scale",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "CAM",
+    "test": "Test CAM.scale with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Caméra et rendu des yeux",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  }
+]

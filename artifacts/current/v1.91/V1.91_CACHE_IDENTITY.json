@@ -1,0 +1,12 @@
+{
+  "version": "V1.91",
+  "scope": "HumanFace bilateral side is part of the eye geometry cache input identity",
+  "left_side": "image_left",
+  "right_side": "image_right",
+  "single_side": "single",
+  "left_key_differs_from_single": true,
+  "right_key_differs_from_single": true,
+  "left_key_differs_from_right": true,
+  "side_is_present_in_cache_projection": true,
+  "status": "PASS"
+}

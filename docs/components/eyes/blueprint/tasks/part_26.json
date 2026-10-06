@@ -1,0 +1,140 @@
+[
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for CAM.occlusion_order and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR"
+    ],
+    "develop": "Implement CAM.occlusion_order as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "ordre d’occlusion",
+    "id": "CAM.occlusion_order",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "CAM",
+    "test": "Test CAM.occlusion_order with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Caméra et rendu des yeux",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for CAM.pair_alignment and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR"
+    ],
+    "develop": "Implement CAM.pair_alignment as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "alignement bilatéral",
+    "id": "CAM.pair_alignment",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "CAM",
+    "test": "Test CAM.pair_alignment with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Caméra et rendu des yeux",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for CAM.camera_invariance and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR"
+    ],
+    "develop": "Implement CAM.camera_invariance as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "invariance intrinsèque sous caméra",
+    "id": "CAM.camera_invariance",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "CAM",
+    "test": "Test CAM.camera_invariance with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Caméra et rendu des yeux",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PRM.vocabulary and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR",
+      "COL",
+      "EXP",
+      "CAM"
+    ],
+    "develop": "Implement PRM.vocabulary as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "vocabulaire visuel",
+    "id": "PRM.vocabulary",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "PRM",
+    "test": "Test PRM.vocabulary with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Prompt → spécification visuelle → rendu",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PRM.lexicon and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR",
+      "COL",
+      "EXP",
+      "CAM"
+    ],
+    "develop": "Implement PRM.lexicon as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "lexique morphologique",
+    "id": "PRM.lexicon",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "PRM",
+    "test": "Test PRM.lexicon with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Prompt → spécification visuelle → rendu",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PRM.parser and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR",
+      "COL",
+      "EXP",
+      "CAM"
+    ],
+    "develop": "Implement PRM.parser as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "parsing",
+    "id": "PRM.parser",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "PRM",
+    "test": "Test PRM.parser with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Prompt → spécification visuelle → rendu",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for PRM.semantic_ir and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN",
+      "MOR",
+      "COL",
+      "EXP",
+      "CAM"
+    ],
+    "develop": "Implement PRM.semantic_ir as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "IR intermédiaire",
+    "id": "PRM.semantic_ir",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "PRM",
+    "test": "Test PRM.semantic_ir with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Prompt → spécification visuelle → rendu",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  }
+]

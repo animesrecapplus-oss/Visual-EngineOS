@@ -1,0 +1,7 @@
+{
+  "source": "docs/V1.4_EYE_ATOMIC_BLUEPRINT.json",
+  "sha256_before": "1607e8e0dec92ee20a0129c12d42626301b5608e3312196f83255ff389e5f284",
+  "task_count": 285,
+  "stream_count": 17,
+  "loader_contract": "index.json + streams/*.json + tasks/*.json"
+}

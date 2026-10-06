@@ -1,0 +1,61 @@
+{
+  "component_id": "CMP-FACE-HAIR-DEPTH",
+  "version": "V1.58",
+  "status": "CERTIFIED",
+  "ids": [
+    "CMP-HD-001",
+    "FILE-HD-001",
+    "CON-HD-001",
+    "INV-HD-001",
+    "TST-HD-001",
+    "ADV-HD-001",
+    "REL-HD-001",
+    "DEC-HD-001",
+    "ERR-HD-001",
+    "IMP-HD-001",
+    "EVD-HD-001"
+  ],
+  "source_files": [
+    {
+      "id": "FILE-HD-001",
+      "path": "src/visual_engine/components/face/hair.py",
+      "lines": "46-48",
+      "responsibility": "Hair authored depth contract",
+      "consumers": [
+        "src/visual_engine/runtime/production_owner_geometry.py:8-67",
+        "src/visual_engine/runtime/production_hair_ear_occlusion.py:57-77",
+        "src/visual_engine/render/geometry_svg.py:48-63"
+      ],
+      "dependencies": [
+        "GeometrySurface",
+        "Component"
+      ],
+      "guarantees": [
+        "Hair depth_layer=1"
+      ],
+      "assumptions": [
+        "Ear depth remains 0"
+      ],
+      "invariants": [
+        "INV-HD-001",
+        "INV-HD-002"
+      ],
+      "tests": [
+        "tests/unit/test_v158_hair_ear_occlusion.py:21-32"
+      ],
+      "break_risks": [
+        "depth contract changes"
+      ]
+    }
+  ],
+  "consumer_line_ranges": {
+    "src/visual_engine/runtime/production_slice.py": "98-130,149-171",
+    "src/visual_engine/runtime/production_hair_ear_occlusion.py": "57-77",
+    "src/visual_engine/render/geometry_svg.py": "48-63"
+  },
+  "affected_ranges": {
+    "src/visual_engine/components/face/hair.py": "46-48",
+    "src/visual_engine/runtime/production_slice.py": "98,149-171"
+  },
+  "visual_evidence": "artifacts/current/v1.63/V1.63_HAIR_EAR_RELATIONS_EXTRACTION_QA_BOARD.png"
+}

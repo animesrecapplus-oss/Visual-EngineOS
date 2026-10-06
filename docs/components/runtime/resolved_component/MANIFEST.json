@@ -1,0 +1,94 @@
+{
+  "component_id": "CMP-RUNTIME-RESOLVED-COMPONENT",
+  "line_ranges": {
+    "ADVERSARIAL_TEST_MATRIX.md": {
+      "path": "docs/components/runtime/resolved_component/ADVERSARIAL_TEST_MATRIX.md",
+      "range": "1-16"
+    },
+    "COMPONENT_TRUTH.md": {
+      "path": "docs/components/runtime/resolved_component/COMPONENT_TRUTH.md",
+      "range": "1-24"
+    },
+    "CONTRACTS.md": {
+      "path": "docs/components/runtime/resolved_component/CONTRACTS.md",
+      "range": "1-14"
+    },
+    "DECISIONS.md": {
+      "path": "docs/components/runtime/resolved_component/DECISIONS.md",
+      "range": "1-12"
+    },
+    "DEPENDENCIES_AND_CONSUMERS.md": {
+      "path": "docs/components/runtime/resolved_component/DEPENDENCIES_AND_CONSUMERS.md",
+      "range": "1-19"
+    },
+    "ERRORS.md": {
+      "path": "docs/components/runtime/resolved_component/ERRORS.md",
+      "range": "1-10"
+    },
+    "EVIDENCE.md": {
+      "path": "docs/components/runtime/resolved_component/EVIDENCE.md",
+      "range": "1-15"
+    },
+    "GUARANTEES_AND_STATUS.md": {
+      "path": "docs/components/runtime/resolved_component/GUARANTEES_AND_STATUS.md",
+      "range": "1-15"
+    },
+    "IMPACT_MAP.md": {
+      "path": "docs/components/runtime/resolved_component/IMPACT_MAP.md",
+      "range": "1-21"
+    },
+    "INDEX.md": {
+      "path": "docs/components/runtime/resolved_component/INDEX.md",
+      "range": "1-8"
+    },
+    "INVARIANTS_AND_ASSUMPTIONS.md": {
+      "path": "docs/components/runtime/resolved_component/INVARIANTS_AND_ASSUMPTIONS.md",
+      "range": "1-15"
+    },
+    "PRECHANGE_IMPACT_AUDIT.md": {
+      "path": "docs/components/runtime/resolved_component/PRECHANGE_IMPACT_AUDIT.md",
+      "range": "1-26"
+    },
+    "RELATIONS.md": {
+      "path": "docs/components/runtime/resolved_component/RELATIONS.md",
+      "range": "1-16"
+    },
+    "ROADMAP.md": {
+      "path": "docs/components/runtime/resolved_component/ROADMAP.md",
+      "range": "1-13"
+    },
+    "TEST_STATUS.md": {
+      "path": "docs/components/runtime/resolved_component/TEST_STATUS.md",
+      "range": "1-13"
+    },
+    "contract_compatibility_import": {
+      "path": "src/visual_engine/runtime/contract.py",
+      "range": "28-28"
+    },
+    "focused_tests": {
+      "path": "tests/components/runtime/resolved_component/test_v169_resolved_component_truth.py",
+      "range": "1-72"
+    },
+    "owner_source": {
+      "path": "src/visual_engine/runtime/resolved_component.py",
+      "range": "17-35"
+    },
+    "production_consumer": {
+      "path": "src/visual_engine/runtime/production_face_render.py",
+      "range": "17-17"
+    },
+    "public_export": {
+      "path": "src/visual_engine/runtime/__init__.py",
+      "range": "6-9"
+    },
+    "result_owner": {
+      "path": "src/visual_engine/runtime/resolved_component.py",
+      "range": "24-35"
+    },
+    "trace_owner": {
+      "path": "src/visual_engine/runtime/resolved_component.py",
+      "range": "17-21"
+    }
+  },
+  "version": "V1.69"
+}

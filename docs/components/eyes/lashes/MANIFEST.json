@@ -1,0 +1,13 @@
+{
+  "component_id": "CMP-EYE-LASH",
+  "version": "V1.85",
+  "canonical_owner": "src/visual_engine/components/face/eyes/lashes/spec.py",
+  "semantic_parent": "ORBIT / PERIOCULAR",
+  "aggregate_parent": "CMP-EYE",
+  "scope": "local LashSpec and LowerLashSpec numeric/type input hardening",
+  "contract_ids": ["CON-LASH-001", "CON-LASH-002", "CON-LASH-003", "CON-LASH-004", "CON-LASH-005", "CON-LASH-006", "CON-LASH-007"],
+  "invariant_ids": ["INV-LASH-001", "INV-LASH-002", "INV-LASH-003", "INV-LASH-004", "INV-LASH-005", "INV-LASH-006"],
+  "decision_ids": ["DEC-LASH-001", "DEC-LASH-002", "DEC-LASH-003"],
+  "error_ids": ["ERR-LASH-001", "ERR-LASH-002", "ERR-LASH-003"],
+  "status": "CERTIFIED"
+}

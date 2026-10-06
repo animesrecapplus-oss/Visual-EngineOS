@@ -1,0 +1,82 @@
+{
+  "component_id": "CMP-FACE-NOSE-001",
+  "version": "V1.79",
+  "status": "DOCUMENTED_UNCHANGED",
+  "files": [
+    {
+      "path": "INDEX.md",
+      "line_range": "1-5",
+      "lines": 5
+    },
+    {
+      "path": "COMPONENT_TRUTH.md",
+      "line_range": "1-10",
+      "lines": 10
+    },
+    {
+      "path": "CONTRACTS.md",
+      "line_range": "1-10",
+      "lines": 10
+    },
+    {
+      "path": "DEPENDENCIES_AND_CONSUMERS.md",
+      "line_range": "1-17",
+      "lines": 17
+    },
+    {
+      "path": "INVARIANTS_AND_ASSUMPTIONS.md",
+      "line_range": "1-9",
+      "lines": 9
+    },
+    {
+      "path": "ADVERSARIAL_TEST_MATRIX.md",
+      "line_range": "1-9",
+      "lines": 9
+    },
+    {
+      "path": "RELATIONS.md",
+      "line_range": "1-7",
+      "lines": 7
+    },
+    {
+      "path": "DECISIONS.md",
+      "line_range": "1-6",
+      "lines": 6
+    },
+    {
+      "path": "ERRORS.md",
+      "line_range": "1-6",
+      "lines": 6
+    },
+    {
+      "path": "IMPACT_MAP.md",
+      "line_range": "1-11",
+      "lines": 11
+    },
+    {
+      "path": "EVIDENCE.md",
+      "line_range": "1-7",
+      "lines": 7
+    },
+    {
+      "path": "GUARANTEES_AND_STATUS.md",
+      "line_range": "1-6",
+      "lines": 6
+    },
+    {
+      "path": "ROADMAP.md",
+      "line_range": "1-6",
+      "lines": 6
+    },
+    {
+      "path": "TEST_STATUS.md",
+      "line_range": "1-5",
+      "lines": 5
+    },
+    {
+      "path": "MANIFEST.json",
+      "line_range": "1-82",
+      "lines": 82
+    }
+  ]
+}

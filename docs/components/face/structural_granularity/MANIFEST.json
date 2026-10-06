@@ -1,0 +1,87 @@
+{
+  "component_id": "CMP-FACE-STRUCTURAL-GRANULARITY-AUDIT",
+  "version": "V1.79",
+  "status": "CERTIFIED_AUDIT",
+  "files": [
+    {
+      "path": "INDEX.md",
+      "line_range": "1-10",
+      "lines": 10
+    },
+    {
+      "path": "COMPONENT_TRUTH.md",
+      "line_range": "1-14",
+      "lines": 14
+    },
+    {
+      "path": "CONTRACTS.md",
+      "line_range": "1-9",
+      "lines": 9
+    },
+    {
+      "path": "DEPENDENCIES_AND_CONSUMERS.md",
+      "line_range": "1-12",
+      "lines": 12
+    },
+    {
+      "path": "INVARIANTS_AND_ASSUMPTIONS.md",
+      "line_range": "1-9",
+      "lines": 9
+    },
+    {
+      "path": "ADVERSARIAL_TEST_MATRIX.md",
+      "line_range": "1-9",
+      "lines": 9
+    },
+    {
+      "path": "RELATIONS.md",
+      "line_range": "1-7",
+      "lines": 7
+    },
+    {
+      "path": "DECISIONS.md",
+      "line_range": "1-8",
+      "lines": 8
+    },
+    {
+      "path": "ERRORS.md",
+      "line_range": "1-6",
+      "lines": 6
+    },
+    {
+      "path": "IMPACT_MAP.md",
+      "line_range": "1-13",
+      "lines": 13
+    },
+    {
+      "path": "EVIDENCE.md",
+      "line_range": "1-8",
+      "lines": 8
+    },
+    {
+      "path": "GUARANTEES_AND_STATUS.md",
+      "line_range": "1-15",
+      "lines": 15
+    },
+    {
+      "path": "ROADMAP.md",
+      "line_range": "1-16",
+      "lines": 16
+    },
+    {
+      "path": "TEST_STATUS.md",
+      "line_range": "1-11",
+      "lines": 11
+    },
+    {
+      "path": "PRECHANGE_IMPACT_AUDIT.md",
+      "line_range": "1-9",
+      "lines": 9
+    },
+    {
+      "path": "MANIFEST.json",
+      "line_range": "1-87",
+      "lines": 87
+    }
+  ]
+}

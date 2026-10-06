@@ -1,0 +1,89 @@
+{
+  "streams": [
+    {
+      "id": "BRW",
+      "path": "docs/components/eyes/blueprint/streams/BRW.json",
+      "task_count": 16
+    },
+    {
+      "id": "CAM",
+      "path": "docs/components/eyes/blueprint/streams/CAM.json",
+      "task_count": 14
+    },
+    {
+      "id": "COL",
+      "path": "docs/components/eyes/blueprint/streams/COL.json",
+      "task_count": 22
+    },
+    {
+      "id": "EXP",
+      "path": "docs/components/eyes/blueprint/streams/EXP.json",
+      "task_count": 19
+    },
+    {
+      "id": "GEN",
+      "path": "docs/components/eyes/blueprint/streams/GEN.json",
+      "task_count": 19
+    },
+    {
+      "id": "HIL",
+      "path": "docs/components/eyes/blueprint/streams/HIL.json",
+      "task_count": 16
+    },
+    {
+      "id": "IRI",
+      "path": "docs/components/eyes/blueprint/streams/IRI.json",
+      "task_count": 19
+    },
+    {
+      "id": "LAS",
+      "path": "docs/components/eyes/blueprint/streams/LAS.json",
+      "task_count": 21
+    },
+    {
+      "id": "LID",
+      "path": "docs/components/eyes/blueprint/streams/LID.json",
+      "task_count": 15
+    },
+    {
+      "id": "MOR",
+      "path": "docs/components/eyes/blueprint/streams/MOR.json",
+      "task_count": 18
+    },
+    {
+      "id": "OCC",
+      "path": "docs/components/eyes/blueprint/streams/OCC.json",
+      "task_count": 14
+    },
+    {
+      "id": "PAIR",
+      "path": "docs/components/eyes/blueprint/streams/PAIR.json",
+      "task_count": 11
+    },
+    {
+      "id": "PRM",
+      "path": "docs/components/eyes/blueprint/streams/PRM.json",
+      "task_count": 17
+    },
+    {
+      "id": "PUP",
+      "path": "docs/components/eyes/blueprint/streams/PUP.json",
+      "task_count": 22
+    },
+    {
+      "id": "RND",
+      "path": "docs/components/eyes/blueprint/streams/RND.json",
+      "task_count": 14
+    },
+    {
+      "id": "STY",
+      "path": "docs/components/eyes/blueprint/streams/STY.json",
+      "task_count": 13
+    },
+    {
+      "id": "VAR",
+      "path": "docs/components/eyes/blueprint/streams/VAR.json",
+      "task_count": 15
+    }
+  ]
+}

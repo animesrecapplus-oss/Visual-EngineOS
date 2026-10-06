@@ -1,0 +1,135 @@
+[
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for HIL.opacity and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "PUP",
+      "IRI",
+      "COL"
+    ],
+    "develop": "Implement HIL.opacity as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "opacité",
+    "id": "HIL.opacity",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "HIL",
+    "test": "Test HIL.opacity with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Highlights et réflexion visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for HIL.edge_softness and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "PUP",
+      "IRI",
+      "COL"
+    ],
+    "develop": "Implement HIL.edge_softness as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "douceur des bords",
+    "id": "HIL.edge_softness",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "HIL",
+    "test": "Test HIL.edge_softness with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Highlights et réflexion visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for HIL.layering and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "PUP",
+      "IRI",
+      "COL"
+    ],
+    "develop": "Implement HIL.layering as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "hiérarchie de couches",
+    "id": "HIL.layering",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "HIL",
+    "test": "Test HIL.layering with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Highlights et réflexion visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for HIL.pupil_art and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "PUP",
+      "IRI",
+      "COL"
+    ],
+    "develop": "Implement HIL.pupil_art as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "composition artistique dans la pupille",
+    "id": "HIL.pupil_art",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "HIL",
+    "test": "Test HIL.pupil_art with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Highlights et réflexion visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for HIL.iris_interaction and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "PUP",
+      "IRI",
+      "COL"
+    ],
+    "develop": "Implement HIL.iris_interaction as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "interaction iris",
+    "id": "HIL.iris_interaction",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "HIL",
+    "test": "Test HIL.iris_interaction with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Highlights et réflexion visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for HIL.light_source_relation and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "PUP",
+      "IRI",
+      "COL"
+    ],
+    "develop": "Implement HIL.light_source_relation as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "relation source lumineuse",
+    "id": "HIL.light_source_relation",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "HIL",
+    "test": "Test HIL.light_source_relation with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Highlights et réflexion visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for HIL.camera_relation and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "PUP",
+      "IRI",
+      "COL"
+    ],
+    "develop": "Implement HIL.camera_relation as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "stabilité/variation liée caméra",
+    "id": "HIL.camera_relation",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "HIL",
+    "test": "Test HIL.camera_relation with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Highlights et réflexion visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  }
+]

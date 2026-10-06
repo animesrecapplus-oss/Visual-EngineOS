@@ -1,0 +1,128 @@
+[
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for EXP.iris_exposure and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "BRW",
+      "PUP",
+      "IRI",
+      "HIL"
+    ],
+    "develop": "Implement EXP.iris_exposure as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "exposition iris",
+    "id": "EXP.iris_exposure",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "EXP",
+    "test": "Test EXP.iris_exposure with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Expression oculaire",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for EXP.highlight and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "BRW",
+      "PUP",
+      "IRI",
+      "HIL"
+    ],
+    "develop": "Implement EXP.highlight as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "variation highlight",
+    "id": "EXP.highlight",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "EXP",
+    "test": "Test EXP.highlight with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Expression oculaire",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for EXP.tear and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "BRW",
+      "PUP",
+      "IRI",
+      "HIL"
+    ],
+    "develop": "Implement EXP.tear as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "tear state",
+    "id": "EXP.tear",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "EXP",
+    "test": "Test EXP.tear with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Expression oculaire",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for EXP.sclera_marks and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "BRW",
+      "PUP",
+      "IRI",
+      "HIL"
+    ],
+    "develop": "Implement EXP.sclera_marks as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "marques sclère",
+    "id": "EXP.sclera_marks",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "EXP",
+    "test": "Test EXP.sclera_marks with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Expression oculaire",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for EXP.asymmetry and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "BRW",
+      "PUP",
+      "IRI",
+      "HIL"
+    ],
+    "develop": "Implement EXP.asymmetry as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "asymétrie expressive",
+    "id": "EXP.asymmetry",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "EXP",
+    "test": "Test EXP.asymmetry with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Expression oculaire",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for EXP.intensity and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "BRW",
+      "PUP",
+      "IRI",
+      "HIL"
+    ],
+    "develop": "Implement EXP.intensity as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "intensité continue",
+    "id": "EXP.intensity",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "EXP",
+    "test": "Test EXP.intensity with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Expression oculaire",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  }
+]

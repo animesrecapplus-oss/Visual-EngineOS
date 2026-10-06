@@ -1,0 +1,127 @@
+[
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for HIL.scene_reflection and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "PUP",
+      "IRI",
+      "COL"
+    ],
+    "develop": "Implement HIL.scene_reflection as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "réflexion de scène future",
+    "id": "HIL.scene_reflection",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "HIL",
+    "test": "Test HIL.scene_reflection with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Highlights et réflexion visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for HIL.style and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "PUP",
+      "IRI",
+      "COL"
+    ],
+    "develop": "Implement HIL.style as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "style",
+    "id": "HIL.style",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "HIL",
+    "test": "Test HIL.style with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Highlights et réflexion visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for HIL.determinism and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "PUP",
+      "IRI",
+      "COL"
+    ],
+    "develop": "Implement HIL.determinism as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "déterminisme",
+    "id": "HIL.determinism",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "HIL",
+    "test": "Test HIL.determinism with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Highlights et réflexion visuelle",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for COL.color_space and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN"
+    ],
+    "develop": "Implement COL.color_space as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "espace couleur canonique",
+    "id": "COL.color_space",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "COL",
+    "test": "Test COL.color_space with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Couleur et comportement chromatique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for COL.base_color and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN"
+    ],
+    "develop": "Implement COL.base_color as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "couleur de base",
+    "id": "COL.base_color",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "COL",
+    "test": "Test COL.base_color with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Couleur et comportement chromatique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for COL.palette and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN"
+    ],
+    "develop": "Implement COL.palette as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "palette",
+    "id": "COL.palette",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "COL",
+    "test": "Test COL.palette with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Couleur et comportement chromatique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for COL.iris_gradient and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "GEN"
+    ],
+    "develop": "Implement COL.iris_gradient as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "gradient iris",
+    "id": "COL.iris_gradient",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "COL",
+    "test": "Test COL.iris_gradient with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Couleur et comportement chromatique",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  }
+]

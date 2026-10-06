@@ -1,0 +1,14 @@
+{
+  "component": "CMP-EYE-IRIS",
+  "version": "V1.84",
+  "semantic_parent": "EYEBALL architectural node",
+  "aggregate_parent": "CMP-EYE",
+  "semantic_children": ["CMP-EYE-PUPIL"],
+  "canonical_owner": "src/visual_engine/components/face/eyes/iris/spec.py",
+  "scope": "local IrisSpec numeric/type boundary hardening",
+  "runtime_source_changed": ["src/visual_engine/components/face/eyes/iris/spec.py"],
+  "database_changed": false,
+  "color_changed": false,
+  "visual_semantics_intended_to_change": false,
+  "status": "BLOCKED_CERTIFICATION_GIT_STATE_UNVERIFIABLE"
+}

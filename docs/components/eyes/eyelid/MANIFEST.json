@@ -1,0 +1,13 @@
+{
+  "component": "CMP-EYE-EYELID",
+  "version": "V1.86",
+  "owner": "src/visual_engine/components/face/eyes/eyelid/spec.py:8-73",
+  "scope": "local EyelidAppearance boolean/type/finiteness input hardening",
+  "status": "CERTIFIED",
+  "micro_component_dossier": true,
+  "identifiers": [
+    "CMP-EYE-EYELID", "CON-EYELID-001", "CON-EYELID-002", "INV-EYELID-001",
+    "TST-EYELID-001", "ADV-EYELID-001", "REL-EYELID-001", "DEC-EYELID-001",
+    "ERR-EYELID-001", "IMP-EYELID-001", "EVD-EYELID-001"
+  ]
+}

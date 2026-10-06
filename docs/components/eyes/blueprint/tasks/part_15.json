@@ -1,0 +1,128 @@
+[
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for BRW.deformation and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "MOR"
+    ],
+    "develop": "Implement BRW.deformation as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "déformation",
+    "id": "BRW.deformation",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "BRW",
+    "test": "Test BRW.deformation with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Sourcils",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for BRW.expression and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "MOR"
+    ],
+    "develop": "Implement BRW.expression as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "expression",
+    "id": "BRW.expression",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "BRW",
+    "test": "Test BRW.expression with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Sourcils",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for BRW.forehead_relation and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "MOR"
+    ],
+    "develop": "Implement BRW.forehead_relation as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "relation front",
+    "id": "BRW.forehead_relation",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "BRW",
+    "test": "Test BRW.forehead_relation with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Sourcils",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for BRW.skin_relation and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "MOR"
+    ],
+    "develop": "Implement BRW.skin_relation as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "relation peau",
+    "id": "BRW.skin_relation",
+    "status": "PARTIAL_OR_SKETCH",
+    "stream": "BRW",
+    "test": "Test BRW.skin_relation with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Sourcils",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for BRW.eye_gap and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "MOR"
+    ],
+    "develop": "Implement BRW.eye_gap as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "distance œil/sourcil",
+    "id": "BRW.eye_gap",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "BRW",
+    "test": "Test BRW.eye_gap with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Sourcils",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for BRW.inward_orientation and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "MOR"
+    ],
+    "develop": "Implement BRW.inward_orientation as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "orientation inward",
+    "id": "BRW.inward_orientation",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "BRW",
+    "test": "Test BRW.inward_orientation with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Sourcils",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  },
+  {
+    "acceptance": "Accept only after implementation, tests, deterministic artefact, visual review, correction history and re-validation all pass.",
+    "artifact": "Produce deterministic SVG/PNG/JSON evidence for BRW.state_independence and a machine-readable manifest.",
+    "correction": "Record each observed defect and classify the correction as contract, parameter/invariant, algorithm, or intentional style choice; no silent renderer hack.",
+    "depends_on_streams": [
+      "LID",
+      "MOR"
+    ],
+    "develop": "Implement BRW.state_independence as an isolated contract/solver/generator responsibility; no renderer-specific shortcut.",
+    "feature": "indépendance de fermeture",
+    "id": "BRW.state_independence",
+    "status": "IMPLEMENTED_ATOMIC",
+    "stream": "BRW",
+    "test": "Test BRW.state_independence with nominal, boundary, adversarial and interaction cases appropriate to its domain.",
+    "title": "Sourcils",
+    "validation": "Validate geometry/appearance invariants, determinism, provenance, cache boundary and compatibility before acceptance.",
+    "visual": "Inspect the produced artifact in at least one normal view and one boundary/context view."
+  }
+]

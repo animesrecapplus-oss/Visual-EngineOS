@@ -1,0 +1,30 @@
+{
+  "component_id": "CMP-DOMAIN-INPUT-FACTORY",
+  "version": "V1.54",
+  "owner": "src/visual_engine/runtime/domain_input_factory.py",
+  "responsibility": "canonical domain-input construction and normalization",
+  "persistence_direct_consumer": false,
+  "visual_qa": "NOT_APPLICABLE",
+  "source_files": [
+    {
+      "path": "src/visual_engine/runtime/domain_input_factory.py",
+      "line_budget": "PASS"
+    },
+    {
+      "path": "src/visual_engine/runtime/domain_resolution.py",
+      "role": "compatibility facade"
+    }
+  ],
+  "ids": {
+    "CMP": "CMP-DOMAIN-INPUT-FACTORY",
+    "CON": "CON-DIF-001..006",
+    "INV": "INV-DIF-001..007",
+    "TST": "TST-DIF-001..008",
+    "ADV": "ADV-DIF-001..010",
+    "REL": "REL-DIF-001",
+    "DEC": "DEC-DIF-001..002",
+    "ERR": "ERR-DIF-001..002",
+    "IMP": "IMP-DIF-001..007",
+    "EVD": "EVD-DIF-001..007"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "component_id": "CMP-PROD-HAIR-EAR-OCCLUSION",
+  "files": {
+    "consumer": "src/visual_engine/runtime/production_hair_ear_relations.py:47-55",
+    "pair_owner": "src/visual_engine/runtime/production_pair_occlusion.py:53-107",
+    "source": "src/visual_engine/runtime/production_hair_ear_occlusion.py:1-77",
+    "tests": "tests/unit/test_v158_hair_ear_occlusion.py:21-95"
+  },
+  "status": "CERTIFIED",
+  "version": "V1.59"
+}
